@@ -45,6 +45,10 @@
     
     a = 100;
     
+    for (int i = 0; i < 100; i ++) {
+        NSLog(@"i:%d",i);
+    }
+    
     NSLog(@"block1:%d",changeValueBlock(a));
     
     NSLog(@"block2:%d",changeValueBlock(a));
