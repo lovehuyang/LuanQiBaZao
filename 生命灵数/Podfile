@@ -1,0 +1,5 @@
+platform :ios , '8.0'
+target '生命灵数' do
+pod 'WRNavigationBar','~>1.0.9’
+pod 'SDAutoLayout'
+end

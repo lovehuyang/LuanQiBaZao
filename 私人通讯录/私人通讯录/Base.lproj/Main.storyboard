@@ -165,7 +165,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="E1l-U9-Scv" kind="push" id="iRS-Vj-f7h"/>
+                                    <segue destination="E1l-U9-Scv" kind="push" id="M1M-MO-ocY"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

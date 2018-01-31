@@ -1,0 +1,15 @@
+PODS:
+  - SDAutoLayout (2.2.0)
+  - WRNavigationBar (1.0.9)
+
+DEPENDENCIES:
+  - SDAutoLayout
+  - WRNavigationBar (~> 1.0.9)
+
+SPEC CHECKSUMS:
+  SDAutoLayout: c5509e77ae75735d9a39f7bc83dba6d3f75d49d8
+  WRNavigationBar: 8e02b9701431fa1ed7ae72bd4370103f0b5e4b5d
+
+PODFILE CHECKSUM: 56eb337c4473ddbc38f2e4950870ddbd7af91fdb
+
+COCOAPODS: 1.4.0.beta.2
