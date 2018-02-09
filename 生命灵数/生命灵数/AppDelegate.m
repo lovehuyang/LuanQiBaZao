@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "ViewController.h"
 #import "WRNavigationBar.h"
+#import <AudioToolbox/AudioToolbox.h>
 
 @interface AppDelegate ()
 
@@ -19,7 +20,29 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [self setNavBarAppearence];
+    [self srtupRong];
     return YES;
+}
+
+
+/**
+ 初始化融云配置
+ */
+- (void)srtupRong{
+    //非debug模式初始化sdk
+    [[RCIM sharedRCIM] initWithAppKey:RONG_APPKEY];
+    
+    //设置会话列表头像和会话页面头像
+    
+    [[RCIM sharedRCIM] setConnectionStatusDelegate:self];
+    
+    [RCIM sharedRCIM].globalConversationPortraitSize = CGSizeMake(46, 46);
+    //开启消息撤回功能
+    [RCIM sharedRCIM].enableMessageRecall = YES;
+    
+    //设置Log级别，开发阶段打印详细log
+    [RCIMClient sharedRCIMClient].logLevel = RC_Log_Level_Info;
+    
 }
 
 - (void)setNavBarAppearence

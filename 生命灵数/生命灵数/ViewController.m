@@ -11,6 +11,7 @@
 #define kMaxLength 4
 
 
+
 @interface ViewController ()
 {
     NSInteger currentYear;
@@ -22,6 +23,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *birthField;
 @property (weak, nonatomic) IBOutlet UILabel *resultLab;
 @property (strong, nonatomic)  NSArray *dataArr;
+- (IBAction)chatViewList:(id)sender;
 
 @end
 
@@ -51,7 +53,7 @@
     .rightSpaceToView(self.view, 20)
     .topSpaceToView(self.view, StatusHight + 44 + 20)
     .heightIs(40);
-    self.currentLab.backgroundColor = [UIColor yellowColor];
+    self.currentLab.backgroundColor = [UIColor whiteColor];
     
     self.titleLab.sd_layout
     .topSpaceToView(self.currentLab, 20)
@@ -148,5 +150,60 @@
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     self.dataArr = [NSArray arrayWithContentsOfFile:[self getPath]];
+}
+- (IBAction)chatViewList:(id)sender {
+    
+    NSString *token = @"Y93DOv20oLAs8O2xTPSUj5RwHxgRHIqxppxuAL3e1Zaqt7R8fvP7cAX6bV1FMHiD0hpD2XhBw4lkJeDGFQuyXyKYPlHC4FKF";
+    
+    RCNetworkStatus status = [[RCIMClient sharedRCIMClient] getCurrentNetworkStatus];
+    
+    if (RC_NotReachable == status) {
+        NSLog(@"当前网络不可用，请检查！");
+        return;
+    } else {
+        NSLog(@"当前网络可用！");
+    }
+
+    [AFHttpTool loginWithPhone:userName
+                      password:password
+                        region:@"86"
+                       success:^(id response) {
+                           if ([response[@"code"] intValue] == 200) {
+                               NSString *token = response[@"result"][@"token"];
+                               NSString *userId = response[@"result"][@"id"];
+                               [self loginRongCloud:userName userId:userId token:token password:password];
+                           } else {
+                               //关闭HUD
+                               [hud hide:YES];
+                               int _errCode = [response[@"code"] intValue];
+                               NSLog(@"NSError is %d", _errCode);
+                               if (_errCode == 1000) {
+                                   _errorMsgLb.text = @"手机号或密码错误！";
+                               }
+                               [_pwdTextField shake];
+                           }
+                       }
+                       failure:^(NSError *err) {
+                           [hud hide:YES];
+                           _errorMsgLb.text = @"登录失败，请检查网络。";
+                       }];
+} else {
+    _errorMsgLb.text = @"请检查手机号和密码";
+}
+    
+    RCConversationListViewController *rvc = [[RCConversationListViewController alloc]init];
+    [self.navigationController pushViewController:rvc animated:YES];
+    //登录融云服务器
+//    [[RCIM sharedRCIM] connectWithToken:token
+//                                success:^(NSString *userId) {
+//                                    NSLog([NSString stringWithFormat:@"token is %@  userId is %@", token, userId], nil);
+//
+//
+//                                }error:^(RCConnectErrorCode status) {
+//                                    NSLog(@"");
+//                                  }
+//                         tokenIncorrect:^{
+//                             NSLog(@"");
+//                         }];
 }
 @end

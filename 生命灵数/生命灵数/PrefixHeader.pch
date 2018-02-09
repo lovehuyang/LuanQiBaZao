@@ -10,6 +10,13 @@
 #define PrefixHeader_pch
 
 #import <SDAutoLayout.h>
+#import <RongIMKit/RongIMKit.h>
+#import "RCDSettingUserDefaults.h"
+#import "RCDHttpTool.h"
+#import "AFHttpTool.h"
+#import <AFNetworking.h>
+
+#define RONG_APPKEY @"3argexb630e1e"
 
 #define ScrW [UIScreen mainScreen].bounds.size.width
 #define ScrH [UIScreen mainScreen].bounds.size.height
