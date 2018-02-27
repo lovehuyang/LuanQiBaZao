@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		09F226F72045409F0061375C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F226F62045409F0061375C /* AppDelegate.swift */; };
-		09F226F92045409F0061375C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F226F82045409F0061375C /* ViewController.swift */; };
 		09F226FC2045409F0061375C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09F226FA2045409F0061375C /* Main.storyboard */; };
 		09F226FE2045409F0061375C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09F226FD2045409F0061375C /* Assets.xcassets */; };
 		09F227012045409F0061375C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09F226FF2045409F0061375C /* LaunchScreen.storyboard */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		09F226F32045409F0061375C /* HLYWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLYWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09F226F62045409F0061375C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		09F226F82045409F0061375C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		09F226FB2045409F0061375C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		09F226FD2045409F0061375C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09F227002045409F0061375C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +33,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09D6AEB420454BBD00F63260 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				09D6AEB520454BBD00F63260 /* Discover */,
+				09D6AEB620454BBD00F63260 /* Home */,
+				09D6AEB720454BBD00F63260 /* Main */,
+				09D6AEB820454BBD00F63260 /* Message */,
+				09D6AEB920454BBD00F63260 /* Profile */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		09D6AEB520454BBD00F63260 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		09D6AEB620454BBD00F63260 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		09D6AEB720454BBD00F63260 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		09D6AEB820454BBD00F63260 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		09D6AEB920454BBD00F63260 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		09F226EA2045409F0061375C = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +99,8 @@
 		09F226F52045409F0061375C /* HLYWeibo */ = {
 			isa = PBXGroup;
 			children = (
+				09D6AEB420454BBD00F63260 /* Classes */,
 				09F226F62045409F0061375C /* AppDelegate.swift */,
-				09F226F82045409F0061375C /* ViewController.swift */,
 				09F226FA2045409F0061375C /* Main.storyboard */,
 				09F226FD2045409F0061375C /* Assets.xcassets */,
 				09F226FF2045409F0061375C /* LaunchScreen.storyboard */,
@@ -136,7 +181,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09F226F92045409F0061375C /* ViewController.swift in Sources */,
 				09F226F72045409F0061375C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,11 +320,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HLYWeibo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.tongzhi.HLYWeibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -290,11 +335,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HLYWeibo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.tongzhi.HLYWeibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
