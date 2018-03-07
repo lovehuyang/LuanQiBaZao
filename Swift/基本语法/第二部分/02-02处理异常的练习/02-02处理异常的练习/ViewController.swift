@@ -18,7 +18,6 @@ class ViewController: UIViewController {
         let pattern = "abc"
         //2、创建正则表达式对象
         
-        
         // 方式一：try方式
         do{
             let regex = try NSRegularExpression(pattern: pattern, options: .caseInsensitive)
@@ -27,15 +26,11 @@ class ViewController: UIViewController {
         }
         
         // 方式二：try？方式
+        // 若有异常，则返回nil；没异常则返回可选类型，使用时要注意解包
         let regex2 = try? NSRegularExpression(pattern: pattern, options: .caseInsensitive)
         
-        
-        
-        
-        // 方式二：try!方式
+        // 方式二：try!方式 （危险的方式）,表示肯定没有异常，返回一个确定类型；若是出现异常会出现崩溃
         let regex3 = try! NSRegularExpression(pattern: pattern, options: .caseInsensitive)
-        
-        
     }
 }
 
