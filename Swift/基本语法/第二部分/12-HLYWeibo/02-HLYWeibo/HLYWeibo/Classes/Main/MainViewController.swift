@@ -21,34 +21,66 @@ class MainViewController: UITabBarController {
         // 命名空间 HLYWeibo,在本工程下创建的所有的类都在HLYWeibo这个命名空间之下
         // 通过字符串创建类必须要先获取命名空间
         print(HomeViewController())
-        // <HLYWeibo.HomeViewController: 0x7fb936510660>
-        
-//        addChildViewController("HomeViewController", title: "首页", imageName: "tabbar_home")
-//        addChildViewController("MessageViewController", title: "消息", imageName: "tabbar_message_center")
-//        addChildViewController("DiscoverViewController", title: "发现", imageName: "tabbar_discover")
-//        addChildViewController("ProfileViewController", title: "我", imageName: "tabbar_profile")
-        
-        
+
         // 1.获取json文件路径
         let jsonPath = Bundle.main.path(forResource: "MainViewController", ofType: "json")
         guard (jsonPath != nil) else {
             print("没有在该路径下获取文件")
             return
         }
+    
+        let url = URL(fileURLWithPath: jsonPath!)
+        // 如果在调用系统的某个方法时，该方法的最后有一个throws，说明该方法会抛出异常，如果一个方法会抛出异常，那么需要对该异常进行处理带throws的方法需要抛异常
+        /*
+         在swift中提供了三种处理异常的方式
+         1、try方式：程序员手动处理异常(不太常用)
+            do{
+            try JSONSerialization.jsonObject(with: nil, options: .mutableContainers)
+            }catch{
+                print(error)
+            }
+         
+         2、try?方式：系统帮助处理异常，如果该方法出现异常则该方法返回nil，否则返回对应的对象（常用方式）
+            guard let anyObject :Any = try? JSONSerialization.jsonObject(with: nil, options: JSONSerialization.ReadingOptions.mutableContainers )
+            else{
+         
+            }
+         
+         3、try!方式（不推荐，很危险的操作）:直接告诉系统该方法没有异常，若是该方法出现了异常则崩溃
+            let anyObjc = try!JSONSerialization.jsonObject(with: nil, options: JSONSerialization.ReadingOptions.mutableContainers )
+         */
         
-        // 2.读取json文件中的内容
-        // jsonData数据为二进制数据
-        let jsonData = NSData.init(contentsOfFile: jsonPath!)
-        guard (jsonPath != nil )else {
-            print("没有获取到json文件中的数据")
-            return
+        
+        
+        
+        
+        do {
+            /*
+             * try 和 try! 的区别
+             * try 发生异常会跳到catch代码中
+             * try! 发生异常程序会直接crash
+             */
+            let data = try Data(contentsOf: url)
+            
+            let jsonData:Any = try JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.mutableContainers)
+            let jsonArr = jsonData as! NSArray
+            
+            // 遍历字典
+            for dict in jsonArr {
+                print(dict)
+                let tempDict = dict as! [String : String]
+                let vcName = tempDict["vcName"]
+                let title = tempDict["title"]
+                let imageName = tempDict["imageName"]
+                addChildViewController(vcName!, title: title!, imageName: imageName!)
+
+            }
+        } catch let error as Error! {
+            print("读取本地数据出现错误!",error)
         }
-        
-        // 3.将NSData转成数组/字典(序列化)
-        let dictArray = try! JSONSerialization.data(withJSONObject: jsonData, options: .prettyPrinted)
-        
-        
     }
+    
+    
     // swift 支持方法的重载
     private func addChildViewController(_ childVcName: String,title :String , imageName:String) {
         
@@ -94,5 +126,5 @@ class MainViewController: UITabBarController {
         addChildViewController(childControllerNav)
         
     }
-
 }
+
