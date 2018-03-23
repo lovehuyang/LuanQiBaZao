@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		092DFC4A20635F6E003102C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092DFC4920635F6E003102C2 /* AppDelegate.swift */; };
+		092DFC4C20635F6E003102C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092DFC4B20635F6E003102C2 /* ViewController.swift */; };
+		092DFC4F20635F6E003102C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 092DFC4D20635F6E003102C2 /* Main.storyboard */; };
+		092DFC5120635F6E003102C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 092DFC5020635F6E003102C2 /* Assets.xcassets */; };
+		092DFC5420635F6E003102C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 092DFC5220635F6E003102C2 /* LaunchScreen.storyboard */; };
+		092DFC6020636159003102C2 /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092DFC5F20636159003102C2 /* NetworkTools.swift */; };
+		7C992352FB8AD6DB88355C2F /* Pods_09_AFNTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F84D8EBB8B157D7E16A996B8 /* Pods_09_AFNTools.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		092DFC4620635F6E003102C2 /* 09-AFNTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "09-AFNTools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		092DFC4920635F6E003102C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		092DFC4B20635F6E003102C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		092DFC4E20635F6E003102C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		092DFC5020635F6E003102C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		092DFC5320635F6E003102C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		092DFC5520635F6E003102C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		092DFC5F20636159003102C2 /* NetworkTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
+		11A0D031E849D93D389D48D1 /* Pods-09-AFNTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-09-AFNTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-09-AFNTools/Pods-09-AFNTools.debug.xcconfig"; sourceTree = "<group>"; };
+		DC0EF2D71BE21D6921852768 /* Pods-09-AFNTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-09-AFNTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-09-AFNTools/Pods-09-AFNTools.release.xcconfig"; sourceTree = "<group>"; };
+		F84D8EBB8B157D7E16A996B8 /* Pods_09_AFNTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_09_AFNTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		092DFC4320635F6E003102C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C992352FB8AD6DB88355C2F /* Pods_09_AFNTools.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		092DFC3D20635F6E003102C2 = {
+			isa = PBXGroup;
+			children = (
+				092DFC4820635F6E003102C2 /* 09-AFNTools */,
+				092DFC4720635F6E003102C2 /* Products */,
+				CB500E32DC7B4E5C698F9A14 /* Pods */,
+				7755886660145A95C0EC5EFB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		092DFC4720635F6E003102C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				092DFC4620635F6E003102C2 /* 09-AFNTools.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		092DFC4820635F6E003102C2 /* 09-AFNTools */ = {
+			isa = PBXGroup;
+			children = (
+				092DFC4920635F6E003102C2 /* AppDelegate.swift */,
+				092DFC4B20635F6E003102C2 /* ViewController.swift */,
+				092DFC5F20636159003102C2 /* NetworkTools.swift */,
+				092DFC4D20635F6E003102C2 /* Main.storyboard */,
+				092DFC5020635F6E003102C2 /* Assets.xcassets */,
+				092DFC5220635F6E003102C2 /* LaunchScreen.storyboard */,
+				092DFC5520635F6E003102C2 /* Info.plist */,
+			);
+			path = "09-AFNTools";
+			sourceTree = "<group>";
+		};
+		7755886660145A95C0EC5EFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F84D8EBB8B157D7E16A996B8 /* Pods_09_AFNTools.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB500E32DC7B4E5C698F9A14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11A0D031E849D93D389D48D1 /* Pods-09-AFNTools.debug.xcconfig */,
+				DC0EF2D71BE21D6921852768 /* Pods-09-AFNTools.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		092DFC4520635F6E003102C2 /* 09-AFNTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 092DFC5820635F6E003102C2 /* Build configuration list for PBXNativeTarget "09-AFNTools" */;
+			buildPhases = (
+				25C28EED4C4437E9BC229F48 /* [CP] Check Pods Manifest.lock */,
+				092DFC4220635F6E003102C2 /* Sources */,
+				092DFC4320635F6E003102C2 /* Frameworks */,
+				092DFC4420635F6E003102C2 /* Resources */,
+				B98BB9DF610FBC569E397834 /* [CP] Embed Pods Frameworks */,
+				0A20089B278556EED1C9A11F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "09-AFNTools";
+			productName = "09-AFNTools";
+			productReference = 092DFC4620635F6E003102C2 /* 09-AFNTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		092DFC3E20635F6E003102C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "胡小羊";
+				TargetAttributes = {
+					092DFC4520635F6E003102C2 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 092DFC4120635F6E003102C2 /* Build configuration list for PBXProject "09-AFNTools" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 092DFC3D20635F6E003102C2;
+			productRefGroup = 092DFC4720635F6E003102C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				092DFC4520635F6E003102C2 /* 09-AFNTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		092DFC4420635F6E003102C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092DFC5420635F6E003102C2 /* LaunchScreen.storyboard in Resources */,
+				092DFC5120635F6E003102C2 /* Assets.xcassets in Resources */,
+				092DFC4F20635F6E003102C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A20089B278556EED1C9A11F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-09-AFNTools/Pods-09-AFNTools-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25C28EED4C4437E9BC229F48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-09-AFNTools-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B98BB9DF610FBC569E397834 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-09-AFNTools/Pods-09-AFNTools-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-09-AFNTools/Pods-09-AFNTools-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		092DFC4220635F6E003102C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092DFC4C20635F6E003102C2 /* ViewController.swift in Sources */,
+				092DFC4A20635F6E003102C2 /* AppDelegate.swift in Sources */,
+				092DFC6020636159003102C2 /* NetworkTools.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		092DFC4D20635F6E003102C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				092DFC4E20635F6E003102C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		092DFC5220635F6E003102C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				092DFC5320635F6E003102C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		092DFC5620635F6E003102C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		092DFC5720635F6E003102C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		092DFC5920635F6E003102C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11A0D031E849D93D389D48D1 /* Pods-09-AFNTools.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "09-AFNTools/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.feiqu.-9-AFNTools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		092DFC5A20635F6E003102C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC0EF2D71BE21D6921852768 /* Pods-09-AFNTools.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "09-AFNTools/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.feiqu.-9-AFNTools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		092DFC4120635F6E003102C2 /* Build configuration list for PBXProject "09-AFNTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				092DFC5620635F6E003102C2 /* Debug */,
+				092DFC5720635F6E003102C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		092DFC5820635F6E003102C2 /* Build configuration list for PBXNativeTarget "09-AFNTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				092DFC5920635F6E003102C2 /* Debug */,
+				092DFC5A20635F6E003102C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 092DFC3E20635F6E003102C2 /* Project object */;
+}
