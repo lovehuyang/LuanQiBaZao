@@ -12,7 +12,7 @@
 		092DFC4F20635F6E003102C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 092DFC4D20635F6E003102C2 /* Main.storyboard */; };
 		092DFC5120635F6E003102C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 092DFC5020635F6E003102C2 /* Assets.xcassets */; };
 		092DFC5420635F6E003102C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 092DFC5220635F6E003102C2 /* LaunchScreen.storyboard */; };
-		092DFC6020636159003102C2 /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092DFC5F20636159003102C2 /* NetworkTools.swift */; };
+		09444D11206A1AA2009621D5 /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09444D10206A1AA2009621D5 /* NetworkTools.swift */; };
 		7C992352FB8AD6DB88355C2F /* Pods_09_AFNTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F84D8EBB8B157D7E16A996B8 /* Pods_09_AFNTools.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +24,7 @@
 		092DFC5020635F6E003102C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		092DFC5320635F6E003102C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		092DFC5520635F6E003102C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		092DFC5F20636159003102C2 /* NetworkTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
+		09444D10206A1AA2009621D5 /* NetworkTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
 		11A0D031E849D93D389D48D1 /* Pods-09-AFNTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-09-AFNTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-09-AFNTools/Pods-09-AFNTools.debug.xcconfig"; sourceTree = "<group>"; };
 		DC0EF2D71BE21D6921852768 /* Pods-09-AFNTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-09-AFNTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-09-AFNTools/Pods-09-AFNTools.release.xcconfig"; sourceTree = "<group>"; };
 		F84D8EBB8B157D7E16A996B8 /* Pods_09_AFNTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_09_AFNTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,7 +65,7 @@
 			children = (
 				092DFC4920635F6E003102C2 /* AppDelegate.swift */,
 				092DFC4B20635F6E003102C2 /* ViewController.swift */,
-				092DFC5F20636159003102C2 /* NetworkTools.swift */,
+				09444D10206A1AA2009621D5 /* NetworkTools.swift */,
 				092DFC4D20635F6E003102C2 /* Main.storyboard */,
 				092DFC5020635F6E003102C2 /* Assets.xcassets */,
 				092DFC5220635F6E003102C2 /* LaunchScreen.storyboard */,
@@ -202,11 +202,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-09-AFNTools/Pods-09-AFNTools-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -222,7 +222,7 @@
 			files = (
 				092DFC4C20635F6E003102C2 /* ViewController.swift in Sources */,
 				092DFC4A20635F6E003102C2 /* AppDelegate.swift in Sources */,
-				092DFC6020636159003102C2 /* NetworkTools.swift in Sources */,
+				09444D11206A1AA2009621D5 /* NetworkTools.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

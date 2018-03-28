@@ -6,5 +6,5 @@ target '09-AFNTools' do
   use_frameworks!
 
   # Pods for 09-AFNTools
-pod 'AFNetworking'
+pod 'Alamofire'
 end

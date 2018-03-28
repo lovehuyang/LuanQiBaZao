@@ -7,24 +7,23 @@
 //
 
 import UIKit
+import Alamofire
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
     }
-
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-
-        NetworkTools.shareInstance.request(requestType: .GET, urlStr: "http://httpbin.org/get", parameters: ["name":"hulyang" as AnyObject]) { (result :AnyObject?, error : Error?) in
-            if (error == nil){
-             print(result)
-            }else{
-                print("请求失败")
-            }
+        NetworkTools.shareInstance.getRequest(url: "http://httpbin.org/get", requestType: .get,parameters: ["name":"huluyang"], success: { (respongObj) in
+            print(respongObj!)
+            let dataDict = respongObj
+            print(dataDict!["url"]!)
+            
+        }) { (error) in
+            print(error)
         }
     }
-
-
 }
 
