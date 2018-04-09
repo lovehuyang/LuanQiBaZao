@@ -38,6 +38,7 @@ extension NetworkTools {
         let method = requestType == .get ? HTTPMethod.get : HTTPMethod.post
         Alamofire.request(url, method: method, parameters: parameters).responseJSON { (responeObj) in
             if responeObj.result.isSuccess{
+                
                 success(responeObj.result.value as AnyObject )
             }else{
                 failure(responeObj.result.error!)

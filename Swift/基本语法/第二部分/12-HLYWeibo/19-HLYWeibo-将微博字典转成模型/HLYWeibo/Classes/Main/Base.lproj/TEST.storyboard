@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7FU-qr-Y6f">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item-->
+        <scene sceneID="b5e-9z-ZyS">
+            <objects>
+                <navigationController id="7FU-qr-Y6f" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="zWi-pD-gS6"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4SO-LH-0B0">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="FkV-vT-Gb2" kind="relationship" relationship="rootViewController" id="b8R-1x-TBu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mV0-a8-xlK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-737" y="648"/>
+        </scene>
+        <!--发现-->
+        <scene sceneID="H9J-BU-3jL">
+            <objects>
+                <viewController id="FkV-vT-Gb2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FEP-FT-K6O">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="YSd-Fg-OJr"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="发现" id="JMU-3m-y9o"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FcX-8J-5jW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="143" y="645"/>
+        </scene>
+    </scenes>
+</document>
