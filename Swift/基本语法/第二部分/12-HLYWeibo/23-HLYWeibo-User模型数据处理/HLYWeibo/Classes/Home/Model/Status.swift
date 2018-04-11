@@ -9,10 +9,23 @@
 import UIKit
 
 class Status: NSObject {
+    
     //MARK:- 属性
-    @objc var created_at : String?            // 创建时间
-    @objc var source : String? {              // 来源
-        // 属性监听器
+    @objc var text : String?                  // 正文
+    @objc var mid : Int = 0                   // 微博的id
+    @objc var user : User?
+    @objc var created_at : String?{           // 微博创建时间
+        didSet{
+            guard created_at != nil else {
+                return
+            }
+            // 对创建时间进行处理
+            createAtText = NSDate.createDateStr(createAtStr: created_at!)
+        }
+    }
+    
+    @objc var source : String? {              // 微博来源
+        
         didSet{
             //1、 nil校验 并且 不是空字符串
             guard source != nil, source != "" else {
@@ -24,12 +37,11 @@ class Status: NSObject {
             sourceText = (source! as NSString).substring(with: NSRange.init(location: startIndex, length: length))
         }
     }
-    @objc var text : String?                  // 正文
-    @objc var mid : Int = 0                   // 微博的id
-    @objc var user : User?
+    
     
     //MARK:- 自定义属性
-    var sourceText : String?
+    var sourceText : String?// 来源
+    var createAtText : String?//创建时间
     
     //MARK:- 自定义构造函数
     init (dict : [String : AnyObject]){
@@ -47,3 +59,4 @@ class Status: NSObject {
     override func setValue(_ value: Any?, forUndefinedKey key: String) {
     }
 }
+

@@ -9,13 +9,14 @@
 import UIKit
 
 class User: NSObject {
-
+    
     //MARK:- 属性
     @objc var name : String?
     @objc var id :Int = 0
     @objc var screen_name : String?         //昵称
     @objc var profile_image_url : String?   // 头像
     @objc var verified : Bool = false       // 认证
+    @objc var avatar_large : String?        // 头像大图
     @objc var verified_type : Int = -1{     // 认证类型
         didSet{
             switch verified_type {
@@ -34,7 +35,7 @@ class User: NSObject {
             }
         }
     }
-    @objc var avatar_large : String?        // 头像大图
+    
     @objc var mbrank :  Int = 0{            //会员等级
         didSet{
             if mbrank > 0 && mbrank<=7{
@@ -47,8 +48,7 @@ class User: NSObject {
     var verifiedImg : UIImage? // 认证身份显示的图标（个人认证、企业认证、微博达人）
     var vipImg : UIImage? // 会员等级图标
     
-    
-    //MARK:- 自定义构造函数 
+    //MARK:- 自定义构造函数
     init(dict : [String : AnyObject]) {
         super.init()
         setValuesForKeys(dict)
@@ -57,3 +57,4 @@ class User: NSObject {
     override func setValue(_ value: Any?, forUndefinedKey key: String) {
     }
 }
+

@@ -10,10 +10,12 @@ import UIKit
 
 class StatusViewModel: NSObject {
     //MARK:- 定义属性
-    var status : Status?
+    var status : Status? // 对status模型进行封装
     
     //MARK:- 自定义构造函数
     init(status : Status) {
-     self.status = status
+    
+        self.status = status
+        
     }
 }
