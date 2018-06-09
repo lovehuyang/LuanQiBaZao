@@ -1,0 +1,18 @@
+PODS:
+  - IQKeyboardManager (5.0.7)
+  - MJRefresh (3.1.15.3)
+  - SDAutoLayout (2.2.0)
+
+DEPENDENCIES:
+  - IQKeyboardManager
+  - MJRefresh
+  - SDAutoLayout
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: 0bfa4607d39924116b5c0c8b55b5d789288b5cba
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  SDAutoLayout: c5509e77ae75735d9a39f7bc83dba6d3f75d49d8
+
+PODFILE CHECKSUM: 1c6ee57893d08de94d03a940530074d95d4ffbe1
+
+COCOAPODS: 1.4.0.beta.2

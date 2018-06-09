@@ -35,7 +35,6 @@ class HomeViewController: BaseViewController {
         getWeiBoInfo()
         
         //4 添加下拉刷新
-        
     }
 }
 
@@ -117,7 +116,7 @@ extension HomeViewController{
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         // 1、 通过storyBoard创建cell
         let cell  = tableView.dequeueReusableCell(withIdentifier: "HomeCell") as! HomeViewCell
-        //2、 给cell设置数据
+        // 2、 给cell设置数据
         let statusViewModel : StatusViewModel = statusArr[indexPath.row]
         cell.viewModel = statusViewModel
         

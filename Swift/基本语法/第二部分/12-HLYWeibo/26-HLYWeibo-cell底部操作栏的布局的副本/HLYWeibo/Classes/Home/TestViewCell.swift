@@ -9,6 +9,7 @@
 import UIKit
 
 class TestViewCell: UITableViewCell {
+    @IBOutlet weak var titleLab: UILabel!
     @IBOutlet weak var iconImg: UIImageView!
     
     override func awakeFromNib() {

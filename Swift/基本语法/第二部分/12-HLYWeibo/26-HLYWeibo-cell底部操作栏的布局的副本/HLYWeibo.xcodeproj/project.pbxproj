@@ -37,6 +37,7 @@
 		09D76E07205A5E6E00B7FBCB /* UIPopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09D76E04205A5E6E00B7FBCB /* UIPopViewController.xib */; };
 		09E264FA207F594B003385FB /* TestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09E264F9207F594B003385FB /* TestCell.xib */; };
 		09E264FC207F5A75003385FB /* TestViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E264FB207F5A75003385FB /* TestViewCell.swift */; };
+		09E78B5820844E78003C8B98 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E78B5720844E78003C8B98 /* TestViewController.m */; };
 		09F226F72045409F0061375C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F226F62045409F0061375C /* AppDelegate.swift */; };
 		09F226FC2045409F0061375C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09F226FA2045409F0061375C /* Main.storyboard */; };
 		09F226FE2045409F0061375C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09F226FD2045409F0061375C /* Assets.xcassets */; };
@@ -80,6 +81,8 @@
 		09D76E04205A5E6E00B7FBCB /* UIPopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIPopViewController.xib; sourceTree = "<group>"; };
 		09E264F9207F594B003385FB /* TestCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestCell.xib; sourceTree = "<group>"; };
 		09E264FB207F5A75003385FB /* TestViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewCell.swift; sourceTree = "<group>"; };
+		09E78B5620844E78003C8B98 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		09E78B5720844E78003C8B98 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		09F226F32045409F0061375C /* HLYWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLYWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09F226F62045409F0061375C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09F226FB2045409F0061375C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -206,6 +209,8 @@
 				095EAFB9204FF77D005F3C0A /* Home.storyboard */,
 				09E264F9207F594B003385FB /* TestCell.xib */,
 				09E264FB207F5A75003385FB /* TestViewCell.swift */,
+				09E78B5620844E78003C8B98 /* TestViewController.h */,
+				09E78B5720844E78003C8B98 /* TestViewController.m */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -337,6 +342,7 @@
 				TargetAttributes = {
 					09F226F22045409F0061375C = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -473,6 +479,7 @@
 				09D6AEBD20454F4500F63260 /* HomeViewController.swift in Sources */,
 				09D6AEC120454F6B00F63260 /* DiscoverViewController.swift in Sources */,
 				09BBBE39206CD6C80047B4C8 /* UserCount.swift in Sources */,
+				09E78B5820844E78003C8B98 /* TestViewController.m in Sources */,
 				09D76E00205A43C700B7FBCB /* Const.swift in Sources */,
 				09692C62207C5C76005C75D2 /* User.swift in Sources */,
 			);
@@ -636,6 +643,7 @@
 			baseConfigurationReference = 3F6981504D1A8FC1150186ED /* Pods-HLYWeibo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 75WWG8XJE9;
 				INFOPLIST_FILE = HLYWeibo/Info.plist;
@@ -644,6 +652,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.tongzhi.HLYWeibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -654,6 +663,7 @@
 			baseConfigurationReference = 1593D88D23057BAA4F6DBD0B /* Pods-HLYWeibo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 75WWG8XJE9;
 				INFOPLIST_FILE = HLYWeibo/Info.plist;

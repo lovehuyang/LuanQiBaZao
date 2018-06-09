@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		090283E420CBC35600073AC6 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090283E320CBC35600073AC6 /* PageViewController.m */; };
+		090283E720CBC45900073AC6 /* ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090283E620CBC45900073AC6 /* ChildViewController.m */; };
+		090283EA20CBC48D00073AC6 /* FYLSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 090283E920CBC48D00073AC6 /* FYLSegmentView.m */; };
+		095194AE20A444A000E6962E /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 095194AD20A444A000E6962E /* HomeCell.xib */; };
+		095194B120A4456200E6962E /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 095194B020A4456200E6962E /* HomeCell.m */; };
+		09B1BC9C209A9D34001FBE96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B1BC9B209A9D34001FBE96 /* AppDelegate.m */; };
+		09B1BCA4209A9D34001FBE96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09B1BCA3209A9D34001FBE96 /* Assets.xcassets */; };
+		09B1BCA7209A9D34001FBE96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09B1BCA5209A9D34001FBE96 /* LaunchScreen.storyboard */; };
+		09B1BCAA209A9D34001FBE96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B1BCA9209A9D34001FBE96 /* main.m */; };
+		09B1BCB5209A9DC7001FBE96 /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B1BCB4209A9DC7001FBE96 /* HomeTableViewController.m */; };
+		09B1BCBA209AA4D0001FBE96 /* AutoLayoutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B1BCB8209AA4D0001FBE96 /* AutoLayoutController.m */; };
+		09B1BCC2209AB3F2001FBE96 /* MasonryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B1BCC1209AB3F2001FBE96 /* MasonryController.m */; };
+		09B1BCC3209AB8FA001FBE96 /* AutoLayoutController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09B1BCBC209AAD68001FBE96 /* AutoLayoutController.xib */; };
+		09D753DD20C6662F0032E683 /* TransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D753DC20C6662F0032E683 /* TransformViewController.m */; };
+		6BF3BE82121B01FE864003E7 /* libPods-HLYRepository.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D884E4B13C662C91140547ED /* libPods-HLYRepository.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		090283E220CBC35600073AC6 /* PageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		090283E320CBC35600073AC6 /* PageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		090283E520CBC45900073AC6 /* ChildViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChildViewController.h; sourceTree = "<group>"; };
+		090283E620CBC45900073AC6 /* ChildViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChildViewController.m; sourceTree = "<group>"; };
+		090283E820CBC48C00073AC6 /* FYLSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYLSegmentView.h; sourceTree = "<group>"; };
+		090283E920CBC48D00073AC6 /* FYLSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYLSegmentView.m; sourceTree = "<group>"; };
+		095194AD20A444A000E6962E /* HomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		095194AF20A4456200E6962E /* HomeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeCell.h; sourceTree = "<group>"; };
+		095194B020A4456200E6962E /* HomeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
+		09B1BC97209A9D34001FBE96 /* HLYRepository.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLYRepository.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09B1BC9A209A9D34001FBE96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		09B1BC9B209A9D34001FBE96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		09B1BCA3209A9D34001FBE96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09B1BCA6209A9D34001FBE96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09B1BCA8209A9D34001FBE96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09B1BCA9209A9D34001FBE96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09B1BCB3209A9DC7001FBE96 /* HomeTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
+		09B1BCB4209A9DC7001FBE96 /* HomeTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
+		09B1BCB7209AA4D0001FBE96 /* AutoLayoutController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoLayoutController.h; sourceTree = "<group>"; };
+		09B1BCB8209AA4D0001FBE96 /* AutoLayoutController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutController.m; sourceTree = "<group>"; };
+		09B1BCBC209AAD68001FBE96 /* AutoLayoutController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AutoLayoutController.xib; sourceTree = "<group>"; };
+		09B1BCBE209AB28E001FBE96 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		09B1BCC0209AB3F2001FBE96 /* MasonryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasonryController.h; sourceTree = "<group>"; };
+		09B1BCC1209AB3F2001FBE96 /* MasonryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryController.m; sourceTree = "<group>"; };
+		09D753DB20C6662F0032E683 /* TransformViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransformViewController.h; sourceTree = "<group>"; };
+		09D753DC20C6662F0032E683 /* TransformViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransformViewController.m; sourceTree = "<group>"; };
+		80ADDF401141125903551976 /* Pods-HLYRepository.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLYRepository.release.xcconfig"; path = "Pods/Target Support Files/Pods-HLYRepository/Pods-HLYRepository.release.xcconfig"; sourceTree = "<group>"; };
+		D884E4B13C662C91140547ED /* libPods-HLYRepository.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HLYRepository.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9900769433950A37083DB8C /* Pods-HLYRepository.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLYRepository.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HLYRepository/Pods-HLYRepository.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09B1BC94209A9D34001FBE96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF3BE82121B01FE864003E7 /* libPods-HLYRepository.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		090283E120CBC32B00073AC6 /* PageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				090283E220CBC35600073AC6 /* PageViewController.h */,
+				090283E320CBC35600073AC6 /* PageViewController.m */,
+				090283E820CBC48C00073AC6 /* FYLSegmentView.h */,
+				090283E920CBC48D00073AC6 /* FYLSegmentView.m */,
+				090283E520CBC45900073AC6 /* ChildViewController.h */,
+				090283E620CBC45900073AC6 /* ChildViewController.m */,
+			);
+			path = PageViewController;
+			sourceTree = "<group>";
+		};
+		09B1BC8E209A9D34001FBE96 = {
+			isa = PBXGroup;
+			children = (
+				09B1BC99209A9D34001FBE96 /* HLYRepository */,
+				09B1BC98209A9D34001FBE96 /* Products */,
+				E72C776901085DF778893098 /* Pods */,
+				D10332D884DE0E5FBE5891BD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		09B1BC98209A9D34001FBE96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09B1BC97209A9D34001FBE96 /* HLYRepository.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09B1BC99209A9D34001FBE96 /* HLYRepository */ = {
+			isa = PBXGroup;
+			children = (
+				09B1BC9A209A9D34001FBE96 /* AppDelegate.h */,
+				09B1BC9B209A9D34001FBE96 /* AppDelegate.m */,
+				09B1BCB3209A9DC7001FBE96 /* HomeTableViewController.h */,
+				09B1BCB4209A9DC7001FBE96 /* HomeTableViewController.m */,
+				095194AF20A4456200E6962E /* HomeCell.h */,
+				095194B020A4456200E6962E /* HomeCell.m */,
+				095194AD20A444A000E6962E /* HomeCell.xib */,
+				090283E120CBC32B00073AC6 /* PageViewController */,
+				09D753D720C665840032E683 /* Transform */,
+				09B1BCBF209AB3DD001FBE96 /* Masonry */,
+				09B1BCB6209AA4A9001FBE96 /* AutoLayout */,
+				09B1BCA3209A9D34001FBE96 /* Assets.xcassets */,
+				09B1BCA5209A9D34001FBE96 /* LaunchScreen.storyboard */,
+				09B1BCA8209A9D34001FBE96 /* Info.plist */,
+				09B1BCA9209A9D34001FBE96 /* main.m */,
+				09B1BCBE209AB28E001FBE96 /* PrefixHeader.pch */,
+			);
+			path = HLYRepository;
+			sourceTree = "<group>";
+		};
+		09B1BCB6209AA4A9001FBE96 /* AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				09B1BCB7209AA4D0001FBE96 /* AutoLayoutController.h */,
+				09B1BCB8209AA4D0001FBE96 /* AutoLayoutController.m */,
+				09B1BCBC209AAD68001FBE96 /* AutoLayoutController.xib */,
+			);
+			path = AutoLayout;
+			sourceTree = "<group>";
+		};
+		09B1BCBF209AB3DD001FBE96 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				09B1BCC0209AB3F2001FBE96 /* MasonryController.h */,
+				09B1BCC1209AB3F2001FBE96 /* MasonryController.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		09D753D720C665840032E683 /* Transform */ = {
+			isa = PBXGroup;
+			children = (
+				09D753DB20C6662F0032E683 /* TransformViewController.h */,
+				09D753DC20C6662F0032E683 /* TransformViewController.m */,
+			);
+			path = Transform;
+			sourceTree = "<group>";
+		};
+		D10332D884DE0E5FBE5891BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D884E4B13C662C91140547ED /* libPods-HLYRepository.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E72C776901085DF778893098 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9900769433950A37083DB8C /* Pods-HLYRepository.debug.xcconfig */,
+				80ADDF401141125903551976 /* Pods-HLYRepository.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09B1BC96209A9D34001FBE96 /* HLYRepository */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09B1BCAD209A9D34001FBE96 /* Build configuration list for PBXNativeTarget "HLYRepository" */;
+			buildPhases = (
+				4BED5574C10A8157402C79B8 /* [CP] Check Pods Manifest.lock */,
+				09B1BC93209A9D34001FBE96 /* Sources */,
+				09B1BC94209A9D34001FBE96 /* Frameworks */,
+				09B1BC95209A9D34001FBE96 /* Resources */,
+				A791689A3BFF8B37982224D5 /* [CP] Embed Pods Frameworks */,
+				903F2EC5C5CB303FC685961B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HLYRepository;
+			productName = HLYRepository;
+			productReference = 09B1BC97209A9D34001FBE96 /* HLYRepository.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09B1BC8F209A9D34001FBE96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = HLY;
+				TargetAttributes = {
+					09B1BC96209A9D34001FBE96 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 09B1BC92209A9D34001FBE96 /* Build configuration list for PBXProject "HLYRepository" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09B1BC8E209A9D34001FBE96;
+			productRefGroup = 09B1BC98209A9D34001FBE96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09B1BC96209A9D34001FBE96 /* HLYRepository */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09B1BC95209A9D34001FBE96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B1BCC3209AB8FA001FBE96 /* AutoLayoutController.xib in Resources */,
+				09B1BCA7209A9D34001FBE96 /* LaunchScreen.storyboard in Resources */,
+				095194AE20A444A000E6962E /* HomeCell.xib in Resources */,
+				09B1BCA4209A9D34001FBE96 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BED5574C10A8157402C79B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HLYRepository-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		903F2EC5C5CB303FC685961B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HLYRepository/Pods-HLYRepository-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A791689A3BFF8B37982224D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HLYRepository/Pods-HLYRepository-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09B1BC93209A9D34001FBE96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				095194B120A4456200E6962E /* HomeCell.m in Sources */,
+				09D753DD20C6662F0032E683 /* TransformViewController.m in Sources */,
+				090283E720CBC45900073AC6 /* ChildViewController.m in Sources */,
+				09B1BCBA209AA4D0001FBE96 /* AutoLayoutController.m in Sources */,
+				090283EA20CBC48D00073AC6 /* FYLSegmentView.m in Sources */,
+				090283E420CBC35600073AC6 /* PageViewController.m in Sources */,
+				09B1BCAA209A9D34001FBE96 /* main.m in Sources */,
+				09B1BCB5209A9DC7001FBE96 /* HomeTableViewController.m in Sources */,
+				09B1BCC2209AB3F2001FBE96 /* MasonryController.m in Sources */,
+				09B1BC9C209A9D34001FBE96 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09B1BCA5209A9D34001FBE96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09B1BCA6209A9D34001FBE96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09B1BCAB209A9D34001FBE96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		09B1BCAC209A9D34001FBE96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09B1BCAE209A9D34001FBE96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9900769433950A37083DB8C /* Pods-HLYRepository.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75WWG8XJE9;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HLYRepository/PrefixHeader.pch";
+				INFOPLIST_FILE = HLYRepository/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.tongzhi.HLYRepository;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09B1BCAF209A9D34001FBE96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80ADDF401141125903551976 /* Pods-HLYRepository.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75WWG8XJE9;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HLYRepository/PrefixHeader.pch";
+				INFOPLIST_FILE = HLYRepository/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.tongzhi.HLYRepository;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09B1BC92209A9D34001FBE96 /* Build configuration list for PBXProject "HLYRepository" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09B1BCAB209A9D34001FBE96 /* Debug */,
+				09B1BCAC209A9D34001FBE96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09B1BCAD209A9D34001FBE96 /* Build configuration list for PBXNativeTarget "HLYRepository" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09B1BCAE209A9D34001FBE96 /* Debug */,
+				09B1BCAF209A9D34001FBE96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09B1BC8F209A9D34001FBE96 /* Project object */;
+}

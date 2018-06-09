@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0970C98F20874A8200F474C0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0970C98E20874A8200F474C0 /* MainViewController.m */; };
+		09E78B6920871D66003C8B98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E78B6820871D66003C8B98 /* AppDelegate.m */; };
+		09E78B6C20871D66003C8B98 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E78B6B20871D66003C8B98 /* ViewController.m */; };
+		09E78B6F20871D66003C8B98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09E78B6D20871D66003C8B98 /* Main.storyboard */; };
+		09E78B7120871D66003C8B98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09E78B7020871D66003C8B98 /* Assets.xcassets */; };
+		09E78B7420871D66003C8B98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09E78B7220871D66003C8B98 /* LaunchScreen.storyboard */; };
+		09E78B7720871D66003C8B98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E78B7620871D66003C8B98 /* main.m */; };
+		09E78B8220872225003C8B98 /* BEMAnalogClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E78B7F20872224003C8B98 /* BEMAnalogClockView.m */; };
+		09E78B8320872225003C8B98 /* KSMHand.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E78B8120872225003C8B98 /* KSMHand.m */; };
+		353E09EED4D48614E0F5C938 /* libPods-LifeTime.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3A3351033568D5B9BA7BB3 /* libPods-LifeTime.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0970C98C2087453C00F474C0 /* LifeTimeHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LifeTimeHeader.pch; sourceTree = "<group>"; };
+		0970C98D20874A8200F474C0 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		0970C98E20874A8200F474C0 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		09E78B6420871D66003C8B98 /* LifeTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09E78B6720871D66003C8B98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		09E78B6820871D66003C8B98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		09E78B6A20871D66003C8B98 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		09E78B6B20871D66003C8B98 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		09E78B6E20871D66003C8B98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09E78B7020871D66003C8B98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09E78B7320871D66003C8B98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09E78B7520871D66003C8B98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09E78B7620871D66003C8B98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09E78B7E20872223003C8B98 /* BEMAnalogClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMAnalogClockView.h; sourceTree = "<group>"; };
+		09E78B7F20872224003C8B98 /* BEMAnalogClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMAnalogClockView.m; sourceTree = "<group>"; };
+		09E78B8020872224003C8B98 /* KSMHand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSMHand.h; sourceTree = "<group>"; };
+		09E78B8120872225003C8B98 /* KSMHand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSMHand.m; sourceTree = "<group>"; };
+		654576109CD877FEF14C3886 /* Pods-LifeTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeTime.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LifeTime/Pods-LifeTime.debug.xcconfig"; sourceTree = "<group>"; };
+		7BDFC5E4757F59297B03299D /* Pods-LifeTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeTime.release.xcconfig"; path = "Pods/Target Support Files/Pods-LifeTime/Pods-LifeTime.release.xcconfig"; sourceTree = "<group>"; };
+		BD3A3351033568D5B9BA7BB3 /* libPods-LifeTime.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LifeTime.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09E78B6120871D66003C8B98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353E09EED4D48614E0F5C938 /* libPods-LifeTime.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09E78B5B20871D66003C8B98 = {
+			isa = PBXGroup;
+			children = (
+				09E78B7D2087220A003C8B98 /* Thirdcategory */,
+				09E78B6620871D66003C8B98 /* LifeTime */,
+				09E78B6520871D66003C8B98 /* Products */,
+				B7C61DDD5EBAE35FDAF32DA0 /* Pods */,
+				742D610927665FB472E4ACA0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		09E78B6520871D66003C8B98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09E78B6420871D66003C8B98 /* LifeTime.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09E78B6620871D66003C8B98 /* LifeTime */ = {
+			isa = PBXGroup;
+			children = (
+				09E78B6720871D66003C8B98 /* AppDelegate.h */,
+				09E78B6820871D66003C8B98 /* AppDelegate.m */,
+				09E78B6A20871D66003C8B98 /* ViewController.h */,
+				09E78B6B20871D66003C8B98 /* ViewController.m */,
+				0970C98D20874A8200F474C0 /* MainViewController.h */,
+				0970C98E20874A8200F474C0 /* MainViewController.m */,
+				09E78B6D20871D66003C8B98 /* Main.storyboard */,
+				09E78B7020871D66003C8B98 /* Assets.xcassets */,
+				09E78B7220871D66003C8B98 /* LaunchScreen.storyboard */,
+				09E78B7520871D66003C8B98 /* Info.plist */,
+				09E78B7620871D66003C8B98 /* main.m */,
+				0970C98C2087453C00F474C0 /* LifeTimeHeader.pch */,
+			);
+			path = LifeTime;
+			sourceTree = "<group>";
+		};
+		09E78B7D2087220A003C8B98 /* Thirdcategory */ = {
+			isa = PBXGroup;
+			children = (
+				09E78B7E20872223003C8B98 /* BEMAnalogClockView.h */,
+				09E78B7F20872224003C8B98 /* BEMAnalogClockView.m */,
+				09E78B8020872224003C8B98 /* KSMHand.h */,
+				09E78B8120872225003C8B98 /* KSMHand.m */,
+			);
+			name = Thirdcategory;
+			path = LifeTime/Thirdcategory;
+			sourceTree = "<group>";
+		};
+		742D610927665FB472E4ACA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD3A3351033568D5B9BA7BB3 /* libPods-LifeTime.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7C61DDD5EBAE35FDAF32DA0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				654576109CD877FEF14C3886 /* Pods-LifeTime.debug.xcconfig */,
+				7BDFC5E4757F59297B03299D /* Pods-LifeTime.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09E78B6320871D66003C8B98 /* LifeTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09E78B7A20871D66003C8B98 /* Build configuration list for PBXNativeTarget "LifeTime" */;
+			buildPhases = (
+				2163BC8A20758F9696A63AB7 /* [CP] Check Pods Manifest.lock */,
+				09E78B6020871D66003C8B98 /* Sources */,
+				09E78B6120871D66003C8B98 /* Frameworks */,
+				09E78B6220871D66003C8B98 /* Resources */,
+				5277CDE30EF56F226823D49E /* [CP] Embed Pods Frameworks */,
+				786B455191BAAAAA73E87FAE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LifeTime;
+			productName = LifeTime;
+			productReference = 09E78B6420871D66003C8B98 /* LifeTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09E78B5C20871D66003C8B98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = HLY;
+				TargetAttributes = {
+					09E78B6320871D66003C8B98 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 09E78B5F20871D66003C8B98 /* Build configuration list for PBXProject "LifeTime" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09E78B5B20871D66003C8B98;
+			productRefGroup = 09E78B6520871D66003C8B98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09E78B6320871D66003C8B98 /* LifeTime */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09E78B6220871D66003C8B98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E78B7420871D66003C8B98 /* LaunchScreen.storyboard in Resources */,
+				09E78B7120871D66003C8B98 /* Assets.xcassets in Resources */,
+				09E78B6F20871D66003C8B98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2163BC8A20758F9696A63AB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LifeTime-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5277CDE30EF56F226823D49E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LifeTime/Pods-LifeTime-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		786B455191BAAAAA73E87FAE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LifeTime/Pods-LifeTime-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LifeTime/Pods-LifeTime-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09E78B6020871D66003C8B98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E78B8320872225003C8B98 /* KSMHand.m in Sources */,
+				0970C98F20874A8200F474C0 /* MainViewController.m in Sources */,
+				09E78B8220872225003C8B98 /* BEMAnalogClockView.m in Sources */,
+				09E78B6C20871D66003C8B98 /* ViewController.m in Sources */,
+				09E78B7720871D66003C8B98 /* main.m in Sources */,
+				09E78B6920871D66003C8B98 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09E78B6D20871D66003C8B98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09E78B6E20871D66003C8B98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09E78B7220871D66003C8B98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09E78B7320871D66003C8B98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09E78B7820871D66003C8B98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		09E78B7920871D66003C8B98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09E78B7B20871D66003C8B98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 654576109CD877FEF14C3886 /* Pods-LifeTime.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75WWG8XJE9;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LifeTime/LifeTimeHeader.pch";
+				INFOPLIST_FILE = LifeTime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.tongzhi.lifetime.LifeTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		09E78B7C20871D66003C8B98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BDFC5E4757F59297B03299D /* Pods-LifeTime.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75WWG8XJE9;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LifeTime/LifeTimeHeader.pch";
+				INFOPLIST_FILE = LifeTime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.tongzhi.lifetime.LifeTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09E78B5F20871D66003C8B98 /* Build configuration list for PBXProject "LifeTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09E78B7820871D66003C8B98 /* Debug */,
+				09E78B7920871D66003C8B98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09E78B7A20871D66003C8B98 /* Build configuration list for PBXNativeTarget "LifeTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09E78B7B20871D66003C8B98 /* Debug */,
+				09E78B7C20871D66003C8B98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09E78B5C20871D66003C8B98 /* Project object */;
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="homecell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="179" id="zl7-S8-Sgx" customClass="HomeCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="179"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zl7-S8-Sgx" id="FJ6-4J-khe">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="178.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="内容" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bpX-Z8-T4B">
+                        <rect key="frame" x="16" y="21" width="35" height="137"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="35" id="WKg-rR-nvP"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="bpX-Z8-T4B" firstAttribute="top" secondItem="FJ6-4J-khe" secondAttribute="topMargin" constant="10" id="GPz-6u-2oe"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="bpX-Z8-T4B" secondAttribute="bottom" constant="10" id="e7o-wW-A4D"/>
+                    <constraint firstItem="bpX-Z8-T4B" firstAttribute="leading" secondItem="FJ6-4J-khe" secondAttribute="leadingMargin" id="vVk-CR-D0o"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cellWidth" destination="WKg-rR-nvP" id="DBp-y0-VeA"/>
+                <outlet property="contentLab" destination="bpX-Z8-T4B" id="uFi-Xr-Lwg"/>
+            </connections>
+            <point key="canvasLocation" x="63.5" y="-24.5"/>
+        </tableViewCell>
+    </objects>
+</document>
