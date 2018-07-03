@@ -10,13 +10,16 @@
 		090283E420CBC35600073AC6 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090283E320CBC35600073AC6 /* PageViewController.m */; };
 		090283E720CBC45900073AC6 /* ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090283E620CBC45900073AC6 /* ChildViewController.m */; };
 		090283EA20CBC48D00073AC6 /* FYLSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 090283E920CBC48D00073AC6 /* FYLSegmentView.m */; };
-		095194AE20A444A000E6962E /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 095194AD20A444A000E6962E /* HomeCell.xib */; };
-		095194B120A4456200E6962E /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 095194B020A4456200E6962E /* HomeCell.m */; };
+		0955FCB320E9F7880046E6E0 /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0955FCB220E9F7880046E6E0 /* GCDViewController.m */; };
+		0955FCBA20E9F7C40046E6E0 /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0955FCB520E9F7C40046E6E0 /* HomeCell.m */; };
+		0955FCBB20E9F7C40046E6E0 /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0955FCB620E9F7C40046E6E0 /* HomeTableViewController.m */; };
+		0955FCBC20E9F7C40046E6E0 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0955FCB920E9F7C40046E6E0 /* HomeCell.xib */; };
+		0955FCC020EA21B70046E6E0 /* CopyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0955FCBF20EA21B70046E6E0 /* CopyViewController.m */; };
+		0955FCC420EB56940046E6E0 /* BlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0955FCC320EB56940046E6E0 /* BlockViewController.m */; };
 		09B1BC9C209A9D34001FBE96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B1BC9B209A9D34001FBE96 /* AppDelegate.m */; };
 		09B1BCA4209A9D34001FBE96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09B1BCA3209A9D34001FBE96 /* Assets.xcassets */; };
 		09B1BCA7209A9D34001FBE96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09B1BCA5209A9D34001FBE96 /* LaunchScreen.storyboard */; };
 		09B1BCAA209A9D34001FBE96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B1BCA9209A9D34001FBE96 /* main.m */; };
-		09B1BCB5209A9DC7001FBE96 /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B1BCB4209A9DC7001FBE96 /* HomeTableViewController.m */; };
 		09B1BCBA209AA4D0001FBE96 /* AutoLayoutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B1BCB8209AA4D0001FBE96 /* AutoLayoutController.m */; };
 		09B1BCC2209AB3F2001FBE96 /* MasonryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B1BCC1209AB3F2001FBE96 /* MasonryController.m */; };
 		09B1BCC3209AB8FA001FBE96 /* AutoLayoutController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09B1BCBC209AAD68001FBE96 /* AutoLayoutController.xib */; };
@@ -31,9 +34,17 @@
 		090283E620CBC45900073AC6 /* ChildViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChildViewController.m; sourceTree = "<group>"; };
 		090283E820CBC48C00073AC6 /* FYLSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYLSegmentView.h; sourceTree = "<group>"; };
 		090283E920CBC48D00073AC6 /* FYLSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYLSegmentView.m; sourceTree = "<group>"; };
-		095194AD20A444A000E6962E /* HomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
-		095194AF20A4456200E6962E /* HomeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeCell.h; sourceTree = "<group>"; };
-		095194B020A4456200E6962E /* HomeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
+		0955FCB120E9F7880046E6E0 /* GCDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
+		0955FCB220E9F7880046E6E0 /* GCDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
+		0955FCB520E9F7C40046E6E0 /* HomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
+		0955FCB620E9F7C40046E6E0 /* HomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
+		0955FCB720E9F7C40046E6E0 /* HomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
+		0955FCB820E9F7C40046E6E0 /* HomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCell.h; sourceTree = "<group>"; };
+		0955FCB920E9F7C40046E6E0 /* HomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		0955FCBE20EA21B70046E6E0 /* CopyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CopyViewController.h; sourceTree = "<group>"; };
+		0955FCBF20EA21B70046E6E0 /* CopyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CopyViewController.m; sourceTree = "<group>"; };
+		0955FCC220EB56940046E6E0 /* BlockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockViewController.h; sourceTree = "<group>"; };
+		0955FCC320EB56940046E6E0 /* BlockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockViewController.m; sourceTree = "<group>"; };
 		09B1BC97209A9D34001FBE96 /* HLYRepository.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLYRepository.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09B1BC9A209A9D34001FBE96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		09B1BC9B209A9D34001FBE96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -41,8 +52,6 @@
 		09B1BCA6209A9D34001FBE96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09B1BCA8209A9D34001FBE96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09B1BCA9209A9D34001FBE96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		09B1BCB3209A9DC7001FBE96 /* HomeTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
-		09B1BCB4209A9DC7001FBE96 /* HomeTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
 		09B1BCB7209AA4D0001FBE96 /* AutoLayoutController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoLayoutController.h; sourceTree = "<group>"; };
 		09B1BCB8209AA4D0001FBE96 /* AutoLayoutController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutController.m; sourceTree = "<group>"; };
 		09B1BCBC209AAD68001FBE96 /* AutoLayoutController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AutoLayoutController.xib; sourceTree = "<group>"; };
@@ -81,6 +90,45 @@
 			path = PageViewController;
 			sourceTree = "<group>";
 		};
+		0955FCB020E9F75D0046E6E0 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				0955FCB120E9F7880046E6E0 /* GCDViewController.h */,
+				0955FCB220E9F7880046E6E0 /* GCDViewController.m */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		0955FCB420E9F7A50046E6E0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0955FCB720E9F7C40046E6E0 /* HomeTableViewController.h */,
+				0955FCB620E9F7C40046E6E0 /* HomeTableViewController.m */,
+				0955FCB820E9F7C40046E6E0 /* HomeCell.h */,
+				0955FCB520E9F7C40046E6E0 /* HomeCell.m */,
+				0955FCB920E9F7C40046E6E0 /* HomeCell.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0955FCBD20EA21A50046E6E0 /* CopyMutableCopy */ = {
+			isa = PBXGroup;
+			children = (
+				0955FCBE20EA21B70046E6E0 /* CopyViewController.h */,
+				0955FCBF20EA21B70046E6E0 /* CopyViewController.m */,
+			);
+			path = CopyMutableCopy;
+			sourceTree = "<group>";
+		};
+		0955FCC120EB567F0046E6E0 /* Block */ = {
+			isa = PBXGroup;
+			children = (
+				0955FCC220EB56940046E6E0 /* BlockViewController.h */,
+				0955FCC320EB56940046E6E0 /* BlockViewController.m */,
+			);
+			path = Block;
+			sourceTree = "<group>";
+		};
 		09B1BC8E209A9D34001FBE96 = {
 			isa = PBXGroup;
 			children = (
@@ -104,15 +152,14 @@
 			children = (
 				09B1BC9A209A9D34001FBE96 /* AppDelegate.h */,
 				09B1BC9B209A9D34001FBE96 /* AppDelegate.m */,
-				09B1BCB3209A9DC7001FBE96 /* HomeTableViewController.h */,
-				09B1BCB4209A9DC7001FBE96 /* HomeTableViewController.m */,
-				095194AF20A4456200E6962E /* HomeCell.h */,
-				095194B020A4456200E6962E /* HomeCell.m */,
-				095194AD20A444A000E6962E /* HomeCell.xib */,
+				0955FCB420E9F7A50046E6E0 /* Home */,
+				0955FCB020E9F75D0046E6E0 /* GCD */,
 				090283E120CBC32B00073AC6 /* PageViewController */,
 				09D753D720C665840032E683 /* Transform */,
 				09B1BCBF209AB3DD001FBE96 /* Masonry */,
 				09B1BCB6209AA4A9001FBE96 /* AutoLayout */,
+				0955FCBD20EA21A50046E6E0 /* CopyMutableCopy */,
+				0955FCC120EB567F0046E6E0 /* Block */,
 				09B1BCA3209A9D34001FBE96 /* Assets.xcassets */,
 				09B1BCA5209A9D34001FBE96 /* LaunchScreen.storyboard */,
 				09B1BCA8209A9D34001FBE96 /* Info.plist */,
@@ -230,7 +277,7 @@
 			files = (
 				09B1BCC3209AB8FA001FBE96 /* AutoLayoutController.xib in Resources */,
 				09B1BCA7209A9D34001FBE96 /* LaunchScreen.storyboard in Resources */,
-				095194AE20A444A000E6962E /* HomeCell.xib in Resources */,
+				0955FCBC20E9F7C40046E6E0 /* HomeCell.xib in Resources */,
 				09B1BCA4209A9D34001FBE96 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,16 +340,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				095194B120A4456200E6962E /* HomeCell.m in Sources */,
 				09D753DD20C6662F0032E683 /* TransformViewController.m in Sources */,
 				090283E720CBC45900073AC6 /* ChildViewController.m in Sources */,
+				0955FCBA20E9F7C40046E6E0 /* HomeCell.m in Sources */,
 				09B1BCBA209AA4D0001FBE96 /* AutoLayoutController.m in Sources */,
+				0955FCC420EB56940046E6E0 /* BlockViewController.m in Sources */,
 				090283EA20CBC48D00073AC6 /* FYLSegmentView.m in Sources */,
 				090283E420CBC35600073AC6 /* PageViewController.m in Sources */,
 				09B1BCAA209A9D34001FBE96 /* main.m in Sources */,
-				09B1BCB5209A9DC7001FBE96 /* HomeTableViewController.m in Sources */,
+				0955FCB320E9F7880046E6E0 /* GCDViewController.m in Sources */,
 				09B1BCC2209AB3F2001FBE96 /* MasonryController.m in Sources */,
+				0955FCC020EA21B70046E6E0 /* CopyViewController.m in Sources */,
 				09B1BC9C209A9D34001FBE96 /* AppDelegate.m in Sources */,
+				0955FCBB20E9F7C40046E6E0 /* HomeTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

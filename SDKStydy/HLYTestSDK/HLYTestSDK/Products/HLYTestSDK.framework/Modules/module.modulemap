@@ -1,0 +1,6 @@
+framework module HLYTestSDK {
+  umbrella header "HLYTestSDK.h"
+
+  export *
+  module * { export * }
+}

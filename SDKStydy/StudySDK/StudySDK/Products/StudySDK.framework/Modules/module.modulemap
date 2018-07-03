@@ -1,0 +1,6 @@
+framework module StudySDK {
+  umbrella header "StudySDK.h"
+
+  export *
+  module * { export * }
+}
