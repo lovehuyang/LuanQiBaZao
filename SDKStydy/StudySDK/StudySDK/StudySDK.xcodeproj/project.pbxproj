@@ -7,12 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		095E064B2122CC83000A57A8 /* JDAFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 095E063D2122CC82000A57A8 /* JDAFCompatibilityMacros.h */; };
+		095E064C2122CC83000A57A8 /* JDAFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 095E063E2122CC82000A57A8 /* JDAFHTTPSessionManager.h */; };
+		095E064D2122CC83000A57A8 /* JDAFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 095E063F2122CC82000A57A8 /* JDAFHTTPSessionManager.m */; };
+		095E064E2122CC83000A57A8 /* JDAFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 095E06402122CC82000A57A8 /* JDAFNetworking.h */; };
+		095E064F2122CC83000A57A8 /* JDAFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 095E06412122CC82000A57A8 /* JDAFNetworkReachabilityManager.h */; };
+		095E06502122CC83000A57A8 /* JDAFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 095E06422122CC82000A57A8 /* JDAFNetworkReachabilityManager.m */; };
+		095E06512122CC83000A57A8 /* JDAFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 095E06432122CC82000A57A8 /* JDAFSecurityPolicy.h */; };
+		095E06522122CC83000A57A8 /* JDAFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 095E06442122CC82000A57A8 /* JDAFSecurityPolicy.m */; };
+		095E06532122CC83000A57A8 /* JDAFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 095E06452122CC82000A57A8 /* JDAFURLRequestSerialization.h */; };
+		095E06542122CC83000A57A8 /* JDAFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 095E06462122CC82000A57A8 /* JDAFURLRequestSerialization.m */; };
+		095E06552122CC83000A57A8 /* JDAFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 095E06472122CC82000A57A8 /* JDAFURLResponseSerialization.h */; };
+		095E06562122CC83000A57A8 /* JDAFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 095E06482122CC82000A57A8 /* JDAFURLResponseSerialization.m */; };
+		095E06572122CC83000A57A8 /* JDAFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 095E06492122CC82000A57A8 /* JDAFURLSessionManager.h */; };
+		095E06582122CC83000A57A8 /* JDAFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 095E064A2122CC82000A57A8 /* JDAFURLSessionManager.m */; };
 		09FB7C9720D2902D0022FCCC /* StudySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 09FB7C9520D2902D0022FCCC /* StudySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		09FB7CC120D2908C0022FCCC /* SDKView.h in Headers */ = {isa = PBXBuildFile; fileRef = 09FB7CBF20D2908C0022FCCC /* SDKView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		09FB7CC220D2908C0022FCCC /* SDKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FB7CC020D2908C0022FCCC /* SDKView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		095E063D2122CC82000A57A8 /* JDAFCompatibilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDAFCompatibilityMacros.h; sourceTree = "<group>"; };
+		095E063E2122CC82000A57A8 /* JDAFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDAFHTTPSessionManager.h; sourceTree = "<group>"; };
+		095E063F2122CC82000A57A8 /* JDAFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDAFHTTPSessionManager.m; sourceTree = "<group>"; };
+		095E06402122CC82000A57A8 /* JDAFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDAFNetworking.h; sourceTree = "<group>"; };
+		095E06412122CC82000A57A8 /* JDAFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDAFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		095E06422122CC82000A57A8 /* JDAFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDAFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		095E06432122CC82000A57A8 /* JDAFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDAFSecurityPolicy.h; sourceTree = "<group>"; };
+		095E06442122CC82000A57A8 /* JDAFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDAFSecurityPolicy.m; sourceTree = "<group>"; };
+		095E06452122CC82000A57A8 /* JDAFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDAFURLRequestSerialization.h; sourceTree = "<group>"; };
+		095E06462122CC82000A57A8 /* JDAFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDAFURLRequestSerialization.m; sourceTree = "<group>"; };
+		095E06472122CC82000A57A8 /* JDAFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDAFURLResponseSerialization.h; sourceTree = "<group>"; };
+		095E06482122CC82000A57A8 /* JDAFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDAFURLResponseSerialization.m; sourceTree = "<group>"; };
+		095E06492122CC82000A57A8 /* JDAFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDAFURLSessionManager.h; sourceTree = "<group>"; };
+		095E064A2122CC82000A57A8 /* JDAFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDAFURLSessionManager.m; sourceTree = "<group>"; };
 		09FB7C9220D2902D0022FCCC /* StudySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StudySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		09FB7C9520D2902D0022FCCC /* StudySDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudySDK.h; sourceTree = "<group>"; };
 		09FB7C9620D2902D0022FCCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,6 +59,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		095E063C2122CC82000A57A8 /* JDAFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				095E063D2122CC82000A57A8 /* JDAFCompatibilityMacros.h */,
+				095E063E2122CC82000A57A8 /* JDAFHTTPSessionManager.h */,
+				095E063F2122CC82000A57A8 /* JDAFHTTPSessionManager.m */,
+				095E06402122CC82000A57A8 /* JDAFNetworking.h */,
+				095E06412122CC82000A57A8 /* JDAFNetworkReachabilityManager.h */,
+				095E06422122CC82000A57A8 /* JDAFNetworkReachabilityManager.m */,
+				095E06432122CC82000A57A8 /* JDAFSecurityPolicy.h */,
+				095E06442122CC82000A57A8 /* JDAFSecurityPolicy.m */,
+				095E06452122CC82000A57A8 /* JDAFURLRequestSerialization.h */,
+				095E06462122CC82000A57A8 /* JDAFURLRequestSerialization.m */,
+				095E06472122CC82000A57A8 /* JDAFURLResponseSerialization.h */,
+				095E06482122CC82000A57A8 /* JDAFURLResponseSerialization.m */,
+				095E06492122CC82000A57A8 /* JDAFURLSessionManager.h */,
+				095E064A2122CC82000A57A8 /* JDAFURLSessionManager.m */,
+			);
+			path = JDAFNetworking;
+			sourceTree = "<group>";
+		};
 		09FB7C8820D2902D0022FCCC = {
 			isa = PBXGroup;
 			children = (
@@ -50,6 +99,7 @@
 		09FB7C9420D2902D0022FCCC /* StudySDK */ = {
 			isa = PBXGroup;
 			children = (
+				095E063C2122CC82000A57A8 /* JDAFNetworking */,
 				09FB7C9520D2902D0022FCCC /* StudySDK.h */,
 				09FB7C9620D2902D0022FCCC /* Info.plist */,
 				09FB7CBF20D2908C0022FCCC /* SDKView.h */,
@@ -66,6 +116,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				09FB7CC120D2908C0022FCCC /* SDKView.h in Headers */,
+				095E064B2122CC83000A57A8 /* JDAFCompatibilityMacros.h in Headers */,
+				095E06552122CC83000A57A8 /* JDAFURLResponseSerialization.h in Headers */,
+				095E06532122CC83000A57A8 /* JDAFURLRequestSerialization.h in Headers */,
+				095E06572122CC83000A57A8 /* JDAFURLSessionManager.h in Headers */,
+				095E064F2122CC83000A57A8 /* JDAFNetworkReachabilityManager.h in Headers */,
+				095E064C2122CC83000A57A8 /* JDAFHTTPSessionManager.h in Headers */,
+				095E06512122CC83000A57A8 /* JDAFSecurityPolicy.h in Headers */,
+				095E064E2122CC83000A57A8 /* JDAFNetworking.h in Headers */,
 				09FB7C9720D2902D0022FCCC /* StudySDK.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -155,7 +213,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				095E06562122CC83000A57A8 /* JDAFURLResponseSerialization.m in Sources */,
+				095E06542122CC83000A57A8 /* JDAFURLRequestSerialization.m in Sources */,
+				095E06522122CC83000A57A8 /* JDAFSecurityPolicy.m in Sources */,
+				095E06502122CC83000A57A8 /* JDAFNetworkReachabilityManager.m in Sources */,
 				09FB7CC220D2908C0022FCCC /* SDKView.m in Sources */,
+				095E06582122CC83000A57A8 /* JDAFURLSessionManager.m in Sources */,
+				095E064D2122CC83000A57A8 /* JDAFHTTPSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

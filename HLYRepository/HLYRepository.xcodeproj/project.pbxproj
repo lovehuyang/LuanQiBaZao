@@ -16,6 +16,11 @@
 		0955FCBC20E9F7C40046E6E0 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0955FCB920E9F7C40046E6E0 /* HomeCell.xib */; };
 		0955FCC020EA21B70046E6E0 /* CopyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0955FCBF20EA21B70046E6E0 /* CopyViewController.m */; };
 		0955FCC420EB56940046E6E0 /* BlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0955FCC320EB56940046E6E0 /* BlockViewController.m */; };
+		0955FCCC20ECA2AC0046E6E0 /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0955FCCB20ECA2AC0046E6E0 /* LocationViewController.m */; };
+		09A65AAD2137BD5F00E22C7A /* ReactiveObjCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A65AAC2137BD5F00E22C7A /* ReactiveObjCViewController.m */; };
+		09A65AB12137C2A600E22C7A /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A65AB02137C2A600E22C7A /* RedView.m */; };
+		09AF479620F47AF700241190 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AF479520F47AF700241190 /* AnimationViewController.m */; };
+		09AF479820F47B7900241190 /* CoreAnimation.png in Resources */ = {isa = PBXBuildFile; fileRef = 09AF479720F47B7900241190 /* CoreAnimation.png */; };
 		09B1BC9C209A9D34001FBE96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B1BC9B209A9D34001FBE96 /* AppDelegate.m */; };
 		09B1BCA4209A9D34001FBE96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09B1BCA3209A9D34001FBE96 /* Assets.xcassets */; };
 		09B1BCA7209A9D34001FBE96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09B1BCA5209A9D34001FBE96 /* LaunchScreen.storyboard */; };
@@ -45,6 +50,16 @@
 		0955FCBF20EA21B70046E6E0 /* CopyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CopyViewController.m; sourceTree = "<group>"; };
 		0955FCC220EB56940046E6E0 /* BlockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockViewController.h; sourceTree = "<group>"; };
 		0955FCC320EB56940046E6E0 /* BlockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockViewController.m; sourceTree = "<group>"; };
+		0955FCCA20ECA2AC0046E6E0 /* LocationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
+		0955FCCB20ECA2AC0046E6E0 /* LocationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
+		0955FCCD20ECA2F20046E6E0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		09A65AAB2137BD5F00E22C7A /* ReactiveObjCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactiveObjCViewController.h; sourceTree = "<group>"; };
+		09A65AAC2137BD5F00E22C7A /* ReactiveObjCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactiveObjCViewController.m; sourceTree = "<group>"; };
+		09A65AAF2137C2A600E22C7A /* RedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedView.h; sourceTree = "<group>"; };
+		09A65AB02137C2A600E22C7A /* RedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedView.m; sourceTree = "<group>"; };
+		09AF479420F47AF700241190 /* AnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
+		09AF479520F47AF700241190 /* AnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
+		09AF479720F47B7900241190 /* CoreAnimation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CoreAnimation.png; sourceTree = "<group>"; };
 		09B1BC97209A9D34001FBE96 /* HLYRepository.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLYRepository.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09B1BC9A209A9D34001FBE96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		09B1BC9B209A9D34001FBE96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -129,6 +144,44 @@
 			path = Block;
 			sourceTree = "<group>";
 		};
+		0955FCC920ECA2980046E6E0 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				0955FCCA20ECA2AC0046E6E0 /* LocationViewController.h */,
+				0955FCCB20ECA2AC0046E6E0 /* LocationViewController.m */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		09A65AA72137BCD100E22C7A /* ReactiveObjC */ = {
+			isa = PBXGroup;
+			children = (
+				09A65AAB2137BD5F00E22C7A /* ReactiveObjCViewController.h */,
+				09A65AAC2137BD5F00E22C7A /* ReactiveObjCViewController.m */,
+				09A65AAE2137C28500E22C7A /* CustomView */,
+			);
+			path = ReactiveObjC;
+			sourceTree = "<group>";
+		};
+		09A65AAE2137C28500E22C7A /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				09A65AAF2137C2A600E22C7A /* RedView.h */,
+				09A65AB02137C2A600E22C7A /* RedView.m */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		09AF479320F47AD100241190 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				09AF479420F47AF700241190 /* AnimationViewController.h */,
+				09AF479520F47AF700241190 /* AnimationViewController.m */,
+				09AF479720F47B7900241190 /* CoreAnimation.png */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
 		09B1BC8E209A9D34001FBE96 = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +213,9 @@
 				09B1BCB6209AA4A9001FBE96 /* AutoLayout */,
 				0955FCBD20EA21A50046E6E0 /* CopyMutableCopy */,
 				0955FCC120EB567F0046E6E0 /* Block */,
+				0955FCC920ECA2980046E6E0 /* Location */,
+				09AF479320F47AD100241190 /* Animation */,
+				09A65AA72137BCD100E22C7A /* ReactiveObjC */,
 				09B1BCA3209A9D34001FBE96 /* Assets.xcassets */,
 				09B1BCA5209A9D34001FBE96 /* LaunchScreen.storyboard */,
 				09B1BCA8209A9D34001FBE96 /* Info.plist */,
@@ -200,6 +256,7 @@
 		D10332D884DE0E5FBE5891BD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0955FCCD20ECA2F20046E6E0 /* CoreLocation.framework */,
 				D884E4B13C662C91140547ED /* libPods-HLYRepository.a */,
 			);
 			name = Frameworks;
@@ -243,6 +300,7 @@
 		09B1BC8F209A9D34001FBE96 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LY;
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = HLY;
 				TargetAttributes = {
@@ -279,6 +337,7 @@
 				09B1BCA7209A9D34001FBE96 /* LaunchScreen.storyboard in Resources */,
 				0955FCBC20E9F7C40046E6E0 /* HomeCell.xib in Resources */,
 				09B1BCA4209A9D34001FBE96 /* Assets.xcassets in Resources */,
+				09AF479820F47B7900241190 /* CoreAnimation.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,13 +403,17 @@
 				090283E720CBC45900073AC6 /* ChildViewController.m in Sources */,
 				0955FCBA20E9F7C40046E6E0 /* HomeCell.m in Sources */,
 				09B1BCBA209AA4D0001FBE96 /* AutoLayoutController.m in Sources */,
+				09A65AB12137C2A600E22C7A /* RedView.m in Sources */,
 				0955FCC420EB56940046E6E0 /* BlockViewController.m in Sources */,
 				090283EA20CBC48D00073AC6 /* FYLSegmentView.m in Sources */,
 				090283E420CBC35600073AC6 /* PageViewController.m in Sources */,
+				09A65AAD2137BD5F00E22C7A /* ReactiveObjCViewController.m in Sources */,
 				09B1BCAA209A9D34001FBE96 /* main.m in Sources */,
 				0955FCB320E9F7880046E6E0 /* GCDViewController.m in Sources */,
+				0955FCCC20ECA2AC0046E6E0 /* LocationViewController.m in Sources */,
 				09B1BCC2209AB3F2001FBE96 /* MasonryController.m in Sources */,
 				0955FCC020EA21B70046E6E0 /* CopyViewController.m in Sources */,
+				09AF479620F47AF700241190 /* AnimationViewController.m in Sources */,
 				09B1BC9C209A9D34001FBE96 /* AppDelegate.m in Sources */,
 				0955FCBB20E9F7C40046E6E0 /* HomeTableViewController.m in Sources */,
 			);

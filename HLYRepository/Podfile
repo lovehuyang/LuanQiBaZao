@@ -7,4 +7,5 @@ target 'HLYRepository' do
 
   # Pods for HLYRepository
 pod ‘Masonry’
+pod 'ReactiveObjC'
 end

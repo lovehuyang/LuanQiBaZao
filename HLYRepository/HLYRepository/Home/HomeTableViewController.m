@@ -23,7 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"HLYRepository";
-    dataArr = [NSArray arrayWithObjects:@"AutoLayout",@"Masonry", @"Transform",@"Page",@"GCD",@"Copy",@"Block",nil];
+    dataArr = [NSArray arrayWithObjects:@"AutoLayout",@"Masonry", @"Transform",@"Page",@"GCD",@"Copy",@"Block",@"Location",@"Animation",@"ReactiveObjC",nil];
     
     self.tableView.estimatedRowHeight = 500;
 }
@@ -71,7 +71,8 @@
         case 1:
         {
             MasonryController *mvc = [MasonryController new];
-            [self presentViewController:mvc animated:YES completion:nil];
+            [self.navigationController pushViewController:mvc animated:YES];
+//            [self presentViewController:mvc animated:YES completion:nil];
         }
             
             break;

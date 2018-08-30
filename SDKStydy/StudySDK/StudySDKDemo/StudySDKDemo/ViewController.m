@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <StudySDK/SDKView.h>
 
 @interface ViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    SDKView *testView = [[SDKView alloc]initWithColor:[UIColor orangeColor]];
+    testView.frame = CGRectMake(0, 80, 200, 200);
+    [self.view addSubview:testView];
+    
 }
 
 

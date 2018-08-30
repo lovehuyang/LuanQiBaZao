@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		095E06362122CC72000A57A8 /* JDAFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 095E062A2122CC72000A57A8 /* JDAFHTTPSessionManager.m */; };
+		095E06372122CC72000A57A8 /* JDAFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 095E062D2122CC72000A57A8 /* JDAFNetworkReachabilityManager.m */; };
+		095E06382122CC72000A57A8 /* JDAFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 095E062F2122CC72000A57A8 /* JDAFSecurityPolicy.m */; };
+		095E06392122CC72000A57A8 /* JDAFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 095E06312122CC72000A57A8 /* JDAFURLRequestSerialization.m */; };
+		095E063A2122CC72000A57A8 /* JDAFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 095E06332122CC72000A57A8 /* JDAFURLResponseSerialization.m */; };
+		095E063B2122CC72000A57A8 /* JDAFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 095E06352122CC72000A57A8 /* JDAFURLSessionManager.m */; };
+		095E065A2122CE02000A57A8 /* StudySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 095E06592122CE01000A57A8 /* StudySDK.framework */; };
 		09FB7CAB20D290770022FCCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FB7CAA20D290770022FCCC /* AppDelegate.m */; };
 		09FB7CAE20D290770022FCCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FB7CAD20D290770022FCCC /* ViewController.m */; };
 		09FB7CB120D290770022FCCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09FB7CAF20D290770022FCCC /* Main.storyboard */; };
@@ -16,6 +23,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		095E06282122CC72000A57A8 /* JDAFCompatibilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDAFCompatibilityMacros.h; sourceTree = "<group>"; };
+		095E06292122CC72000A57A8 /* JDAFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDAFHTTPSessionManager.h; sourceTree = "<group>"; };
+		095E062A2122CC72000A57A8 /* JDAFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDAFHTTPSessionManager.m; sourceTree = "<group>"; };
+		095E062B2122CC72000A57A8 /* JDAFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDAFNetworking.h; sourceTree = "<group>"; };
+		095E062C2122CC72000A57A8 /* JDAFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDAFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		095E062D2122CC72000A57A8 /* JDAFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDAFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		095E062E2122CC72000A57A8 /* JDAFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDAFSecurityPolicy.h; sourceTree = "<group>"; };
+		095E062F2122CC72000A57A8 /* JDAFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDAFSecurityPolicy.m; sourceTree = "<group>"; };
+		095E06302122CC72000A57A8 /* JDAFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDAFURLRequestSerialization.h; sourceTree = "<group>"; };
+		095E06312122CC72000A57A8 /* JDAFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDAFURLRequestSerialization.m; sourceTree = "<group>"; };
+		095E06322122CC72000A57A8 /* JDAFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDAFURLResponseSerialization.h; sourceTree = "<group>"; };
+		095E06332122CC72000A57A8 /* JDAFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDAFURLResponseSerialization.m; sourceTree = "<group>"; };
+		095E06342122CC72000A57A8 /* JDAFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDAFURLSessionManager.h; sourceTree = "<group>"; };
+		095E06352122CC72000A57A8 /* JDAFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDAFURLSessionManager.m; sourceTree = "<group>"; };
+		095E06592122CE01000A57A8 /* StudySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StudySDK.framework; path = ../StudySDK/Products/StudySDK.framework; sourceTree = "<group>"; };
 		09FB7CA620D290770022FCCC /* StudySDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudySDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09FB7CA920D290770022FCCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		09FB7CAA20D290770022FCCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -33,17 +55,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				095E065A2122CE02000A57A8 /* StudySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		095E06242122C945000A57A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		095E06272122CC72000A57A8 /* JDAFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				095E06282122CC72000A57A8 /* JDAFCompatibilityMacros.h */,
+				095E06292122CC72000A57A8 /* JDAFHTTPSessionManager.h */,
+				095E062A2122CC72000A57A8 /* JDAFHTTPSessionManager.m */,
+				095E062B2122CC72000A57A8 /* JDAFNetworking.h */,
+				095E062C2122CC72000A57A8 /* JDAFNetworkReachabilityManager.h */,
+				095E062D2122CC72000A57A8 /* JDAFNetworkReachabilityManager.m */,
+				095E062E2122CC72000A57A8 /* JDAFSecurityPolicy.h */,
+				095E062F2122CC72000A57A8 /* JDAFSecurityPolicy.m */,
+				095E06302122CC72000A57A8 /* JDAFURLRequestSerialization.h */,
+				095E06312122CC72000A57A8 /* JDAFURLRequestSerialization.m */,
+				095E06322122CC72000A57A8 /* JDAFURLResponseSerialization.h */,
+				095E06332122CC72000A57A8 /* JDAFURLResponseSerialization.m */,
+				095E06342122CC72000A57A8 /* JDAFURLSessionManager.h */,
+				095E06352122CC72000A57A8 /* JDAFURLSessionManager.m */,
+			);
+			path = JDAFNetworking;
+			sourceTree = "<group>";
+		};
 		09FB7C9D20D290770022FCCC = {
 			isa = PBXGroup;
 			children = (
+				095E06592122CE01000A57A8 /* StudySDK.framework */,
 				09FB7CA820D290770022FCCC /* StudySDKDemo */,
 				09FB7CA720D290770022FCCC /* Products */,
+				095E06242122C945000A57A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +111,7 @@
 		09FB7CA820D290770022FCCC /* StudySDKDemo */ = {
 			isa = PBXGroup;
 			children = (
+				095E06272122CC72000A57A8 /* JDAFNetworking */,
 				09FB7CA920D290770022FCCC /* AppDelegate.h */,
 				09FB7CAA20D290770022FCCC /* AppDelegate.m */,
 				09FB7CAC20D290770022FCCC /* ViewController.h */,
@@ -142,9 +196,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				095E06392122CC72000A57A8 /* JDAFURLRequestSerialization.m in Sources */,
 				09FB7CAE20D290770022FCCC /* ViewController.m in Sources */,
 				09FB7CB920D290770022FCCC /* main.m in Sources */,
+				095E06382122CC72000A57A8 /* JDAFSecurityPolicy.m in Sources */,
 				09FB7CAB20D290770022FCCC /* AppDelegate.m in Sources */,
+				095E06372122CC72000A57A8 /* JDAFNetworkReachabilityManager.m in Sources */,
+				095E063B2122CC72000A57A8 /* JDAFURLSessionManager.m in Sources */,
+				095E063A2122CC72000A57A8 /* JDAFURLResponseSerialization.m in Sources */,
+				095E06362122CC72000A57A8 /* JDAFHTTPSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
