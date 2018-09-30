@@ -10,6 +10,38 @@
 		090283E420CBC35600073AC6 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090283E320CBC35600073AC6 /* PageViewController.m */; };
 		090283E720CBC45900073AC6 /* ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090283E620CBC45900073AC6 /* ChildViewController.m */; };
 		090283EA20CBC48D00073AC6 /* FYLSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 090283E920CBC48D00073AC6 /* FYLSegmentView.m */; };
+		0940C299216067810049D8E6 /* MBProgressHUDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0940C298216067810049D8E6 /* MBProgressHUDViewController.m */; };
+		0940C2A12160784F0049D8E6 /* HUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0940C29F2160784F0049D8E6 /* HUDManager.m */; };
+		0940C2AA216078C10049D8E6 /* MBHUD_Success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0940C2A2216078BE0049D8E6 /* MBHUD_Success@3x.png */; };
+		0940C2AB216078C10049D8E6 /* MBHUD_Warn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0940C2A3216078BE0049D8E6 /* MBHUD_Warn@3x.png */; };
+		0940C2AC216078C10049D8E6 /* MBHUD_Error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0940C2A4216078BE0049D8E6 /* MBHUD_Error@2x.png */; };
+		0940C2AD216078C10049D8E6 /* MBHUD_Warn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0940C2A5216078BF0049D8E6 /* MBHUD_Warn@2x.png */; };
+		0940C2AE216078C10049D8E6 /* MBHUD_Info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0940C2A6216078BF0049D8E6 /* MBHUD_Info@2x.png */; };
+		0940C2AF216078C10049D8E6 /* MBHUD_Info@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0940C2A7216078C00049D8E6 /* MBHUD_Info@3x.png */; };
+		0940C2B0216078C10049D8E6 /* MBHUD_Success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0940C2A8216078C00049D8E6 /* MBHUD_Success@2x.png */; };
+		0940C2B1216078C10049D8E6 /* MBHUD_Error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0940C2A9216078C10049D8E6 /* MBHUD_Error@3x.png */; };
+		0940C2B32160817E0049D8E6 /* coMascot.png in Resources */ = {isa = PBXBuildFile; fileRef = 0940C2B22160817E0049D8E6 /* coMascot.png */; };
+		0940C2B5216082700049D8E6 /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0940C2B4216082700049D8E6 /* loading.gif */; };
+		0940C3932160B7D20049D8E6 /* WechatIMG1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0940C37F2160B7D20049D8E6 /* WechatIMG1.jpeg */; };
+		0940C3942160B7D20049D8E6 /* WechatIMG10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0940C3802160B7D20049D8E6 /* WechatIMG10.jpeg */; };
+		0940C3952160B7D20049D8E6 /* WechatIMG11.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0940C3812160B7D20049D8E6 /* WechatIMG11.jpeg */; };
+		0940C3962160B7D20049D8E6 /* WechatIMG12.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0940C3822160B7D20049D8E6 /* WechatIMG12.jpeg */; };
+		0940C3972160B7D20049D8E6 /* WechatIMG13.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0940C3832160B7D20049D8E6 /* WechatIMG13.jpeg */; };
+		0940C3982160B7D20049D8E6 /* WechatIMG14.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0940C3842160B7D20049D8E6 /* WechatIMG14.jpeg */; };
+		0940C3992160B7D20049D8E6 /* WechatIMG15.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0940C3852160B7D20049D8E6 /* WechatIMG15.jpeg */; };
+		0940C39A2160B7D20049D8E6 /* WechatIMG16.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0940C3862160B7D20049D8E6 /* WechatIMG16.jpeg */; };
+		0940C39B2160B7D20049D8E6 /* WechatIMG17.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0940C3872160B7D20049D8E6 /* WechatIMG17.jpeg */; };
+		0940C39C2160B7D20049D8E6 /* WechatIMG18.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0940C3882160B7D20049D8E6 /* WechatIMG18.jpeg */; };
+		0940C39D2160B7D20049D8E6 /* WechatIMG19.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0940C3892160B7D20049D8E6 /* WechatIMG19.jpeg */; };
+		0940C39E2160B7D20049D8E6 /* WechatIMG2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0940C38A2160B7D20049D8E6 /* WechatIMG2.jpeg */; };
+		0940C39F2160B7D20049D8E6 /* WechatIMG20.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0940C38B2160B7D20049D8E6 /* WechatIMG20.jpeg */; };
+		0940C3A02160B7D20049D8E6 /* WechatIMG3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0940C38C2160B7D20049D8E6 /* WechatIMG3.jpeg */; };
+		0940C3A12160B7D20049D8E6 /* WechatIMG4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0940C38D2160B7D20049D8E6 /* WechatIMG4.jpeg */; };
+		0940C3A22160B7D20049D8E6 /* WechatIMG5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0940C38E2160B7D20049D8E6 /* WechatIMG5.jpeg */; };
+		0940C3A32160B7D20049D8E6 /* WechatIMG6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0940C38F2160B7D20049D8E6 /* WechatIMG6.jpeg */; };
+		0940C3A42160B7D20049D8E6 /* WechatIMG7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0940C3902160B7D20049D8E6 /* WechatIMG7.jpeg */; };
+		0940C3A52160B7D20049D8E6 /* WechatIMG8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0940C3912160B7D20049D8E6 /* WechatIMG8.jpeg */; };
+		0940C3A62160B7D20049D8E6 /* WechatIMG9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0940C3922160B7D20049D8E6 /* WechatIMG9.jpeg */; };
 		0955FCB320E9F7880046E6E0 /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0955FCB220E9F7880046E6E0 /* GCDViewController.m */; };
 		0955FCBA20E9F7C40046E6E0 /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0955FCB520E9F7C40046E6E0 /* HomeCell.m */; };
 		0955FCBB20E9F7C40046E6E0 /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0955FCB620E9F7C40046E6E0 /* HomeTableViewController.m */; };
@@ -28,6 +60,7 @@
 		09B1BCBA209AA4D0001FBE96 /* AutoLayoutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B1BCB8209AA4D0001FBE96 /* AutoLayoutController.m */; };
 		09B1BCC2209AB3F2001FBE96 /* MasonryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B1BCC1209AB3F2001FBE96 /* MasonryController.m */; };
 		09B1BCC3209AB8FA001FBE96 /* AutoLayoutController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09B1BCBC209AAD68001FBE96 /* AutoLayoutController.xib */; };
+		09C2523D21424A9B0068A9BB /* AFNetworkingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C2523C21424A9B0068A9BB /* AFNetworkingViewController.m */; };
 		09D753DD20C6662F0032E683 /* TransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D753DC20C6662F0032E683 /* TransformViewController.m */; };
 		6BF3BE82121B01FE864003E7 /* libPods-HLYRepository.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D884E4B13C662C91140547ED /* libPods-HLYRepository.a */; };
 /* End PBXBuildFile section */
@@ -39,6 +72,40 @@
 		090283E620CBC45900073AC6 /* ChildViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChildViewController.m; sourceTree = "<group>"; };
 		090283E820CBC48C00073AC6 /* FYLSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYLSegmentView.h; sourceTree = "<group>"; };
 		090283E920CBC48D00073AC6 /* FYLSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYLSegmentView.m; sourceTree = "<group>"; };
+		0940C297216067810049D8E6 /* MBProgressHUDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUDViewController.h; sourceTree = "<group>"; };
+		0940C298216067810049D8E6 /* MBProgressHUDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUDViewController.m; sourceTree = "<group>"; };
+		0940C29E2160784F0049D8E6 /* HUDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUDManager.h; sourceTree = "<group>"; };
+		0940C29F2160784F0049D8E6 /* HUDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUDManager.m; sourceTree = "<group>"; };
+		0940C2A2216078BE0049D8E6 /* MBHUD_Success@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MBHUD_Success@3x.png"; sourceTree = "<group>"; };
+		0940C2A3216078BE0049D8E6 /* MBHUD_Warn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MBHUD_Warn@3x.png"; sourceTree = "<group>"; };
+		0940C2A4216078BE0049D8E6 /* MBHUD_Error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MBHUD_Error@2x.png"; sourceTree = "<group>"; };
+		0940C2A5216078BF0049D8E6 /* MBHUD_Warn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MBHUD_Warn@2x.png"; sourceTree = "<group>"; };
+		0940C2A6216078BF0049D8E6 /* MBHUD_Info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MBHUD_Info@2x.png"; sourceTree = "<group>"; };
+		0940C2A7216078C00049D8E6 /* MBHUD_Info@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MBHUD_Info@3x.png"; sourceTree = "<group>"; };
+		0940C2A8216078C00049D8E6 /* MBHUD_Success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MBHUD_Success@2x.png"; sourceTree = "<group>"; };
+		0940C2A9216078C10049D8E6 /* MBHUD_Error@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MBHUD_Error@3x.png"; sourceTree = "<group>"; };
+		0940C2B22160817E0049D8E6 /* coMascot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coMascot.png; sourceTree = "<group>"; };
+		0940C2B4216082700049D8E6 /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
+		0940C37F2160B7D20049D8E6 /* WechatIMG1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG1.jpeg; sourceTree = "<group>"; };
+		0940C3802160B7D20049D8E6 /* WechatIMG10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG10.jpeg; sourceTree = "<group>"; };
+		0940C3812160B7D20049D8E6 /* WechatIMG11.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG11.jpeg; sourceTree = "<group>"; };
+		0940C3822160B7D20049D8E6 /* WechatIMG12.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG12.jpeg; sourceTree = "<group>"; };
+		0940C3832160B7D20049D8E6 /* WechatIMG13.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG13.jpeg; sourceTree = "<group>"; };
+		0940C3842160B7D20049D8E6 /* WechatIMG14.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG14.jpeg; sourceTree = "<group>"; };
+		0940C3852160B7D20049D8E6 /* WechatIMG15.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG15.jpeg; sourceTree = "<group>"; };
+		0940C3862160B7D20049D8E6 /* WechatIMG16.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG16.jpeg; sourceTree = "<group>"; };
+		0940C3872160B7D20049D8E6 /* WechatIMG17.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG17.jpeg; sourceTree = "<group>"; };
+		0940C3882160B7D20049D8E6 /* WechatIMG18.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG18.jpeg; sourceTree = "<group>"; };
+		0940C3892160B7D20049D8E6 /* WechatIMG19.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG19.jpeg; sourceTree = "<group>"; };
+		0940C38A2160B7D20049D8E6 /* WechatIMG2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG2.jpeg; sourceTree = "<group>"; };
+		0940C38B2160B7D20049D8E6 /* WechatIMG20.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG20.jpeg; sourceTree = "<group>"; };
+		0940C38C2160B7D20049D8E6 /* WechatIMG3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG3.jpeg; sourceTree = "<group>"; };
+		0940C38D2160B7D20049D8E6 /* WechatIMG4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG4.jpeg; sourceTree = "<group>"; };
+		0940C38E2160B7D20049D8E6 /* WechatIMG5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG5.jpeg; sourceTree = "<group>"; };
+		0940C38F2160B7D20049D8E6 /* WechatIMG6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG6.jpeg; sourceTree = "<group>"; };
+		0940C3902160B7D20049D8E6 /* WechatIMG7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG7.jpeg; sourceTree = "<group>"; };
+		0940C3912160B7D20049D8E6 /* WechatIMG8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG8.jpeg; sourceTree = "<group>"; };
+		0940C3922160B7D20049D8E6 /* WechatIMG9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG9.jpeg; sourceTree = "<group>"; };
 		0955FCB120E9F7880046E6E0 /* GCDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
 		0955FCB220E9F7880046E6E0 /* GCDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
 		0955FCB520E9F7C40046E6E0 /* HomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
@@ -73,6 +140,8 @@
 		09B1BCBE209AB28E001FBE96 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		09B1BCC0209AB3F2001FBE96 /* MasonryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasonryController.h; sourceTree = "<group>"; };
 		09B1BCC1209AB3F2001FBE96 /* MasonryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryController.m; sourceTree = "<group>"; };
+		09C2523B21424A9B0068A9BB /* AFNetworkingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworkingViewController.h; sourceTree = "<group>"; };
+		09C2523C21424A9B0068A9BB /* AFNetworkingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworkingViewController.m; sourceTree = "<group>"; };
 		09D753DB20C6662F0032E683 /* TransformViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransformViewController.h; sourceTree = "<group>"; };
 		09D753DC20C6662F0032E683 /* TransformViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransformViewController.m; sourceTree = "<group>"; };
 		80ADDF401141125903551976 /* Pods-HLYRepository.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLYRepository.release.xcconfig"; path = "Pods/Target Support Files/Pods-HLYRepository/Pods-HLYRepository.release.xcconfig"; sourceTree = "<group>"; };
@@ -103,6 +172,71 @@
 				090283E620CBC45900073AC6 /* ChildViewController.m */,
 			);
 			path = PageViewController;
+			sourceTree = "<group>";
+		};
+		0940C296216067500049D8E6 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				0940C297216067810049D8E6 /* MBProgressHUDViewController.h */,
+				0940C298216067810049D8E6 /* MBProgressHUDViewController.m */,
+				0940C29D2160784F0049D8E6 /* HUDManager */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		0940C29D2160784F0049D8E6 /* HUDManager */ = {
+			isa = PBXGroup;
+			children = (
+				0940C29E2160784F0049D8E6 /* HUDManager.h */,
+				0940C29F2160784F0049D8E6 /* HUDManager.m */,
+				0940C2A02160784F0049D8E6 /* image */,
+			);
+			path = HUDManager;
+			sourceTree = "<group>";
+		};
+		0940C2A02160784F0049D8E6 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				0940C37E2160B7D20049D8E6 /* loading2 */,
+				0940C2B4216082700049D8E6 /* loading.gif */,
+				0940C2B22160817E0049D8E6 /* coMascot.png */,
+				0940C2A4216078BE0049D8E6 /* MBHUD_Error@2x.png */,
+				0940C2A9216078C10049D8E6 /* MBHUD_Error@3x.png */,
+				0940C2A6216078BF0049D8E6 /* MBHUD_Info@2x.png */,
+				0940C2A7216078C00049D8E6 /* MBHUD_Info@3x.png */,
+				0940C2A8216078C00049D8E6 /* MBHUD_Success@2x.png */,
+				0940C2A2216078BE0049D8E6 /* MBHUD_Success@3x.png */,
+				0940C2A5216078BF0049D8E6 /* MBHUD_Warn@2x.png */,
+				0940C2A3216078BE0049D8E6 /* MBHUD_Warn@3x.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		0940C37E2160B7D20049D8E6 /* loading2 */ = {
+			isa = PBXGroup;
+			children = (
+				0940C37F2160B7D20049D8E6 /* WechatIMG1.jpeg */,
+				0940C3802160B7D20049D8E6 /* WechatIMG10.jpeg */,
+				0940C3812160B7D20049D8E6 /* WechatIMG11.jpeg */,
+				0940C3822160B7D20049D8E6 /* WechatIMG12.jpeg */,
+				0940C3832160B7D20049D8E6 /* WechatIMG13.jpeg */,
+				0940C3842160B7D20049D8E6 /* WechatIMG14.jpeg */,
+				0940C3852160B7D20049D8E6 /* WechatIMG15.jpeg */,
+				0940C3862160B7D20049D8E6 /* WechatIMG16.jpeg */,
+				0940C3872160B7D20049D8E6 /* WechatIMG17.jpeg */,
+				0940C3882160B7D20049D8E6 /* WechatIMG18.jpeg */,
+				0940C3892160B7D20049D8E6 /* WechatIMG19.jpeg */,
+				0940C38A2160B7D20049D8E6 /* WechatIMG2.jpeg */,
+				0940C38B2160B7D20049D8E6 /* WechatIMG20.jpeg */,
+				0940C38C2160B7D20049D8E6 /* WechatIMG3.jpeg */,
+				0940C38D2160B7D20049D8E6 /* WechatIMG4.jpeg */,
+				0940C38E2160B7D20049D8E6 /* WechatIMG5.jpeg */,
+				0940C38F2160B7D20049D8E6 /* WechatIMG6.jpeg */,
+				0940C3902160B7D20049D8E6 /* WechatIMG7.jpeg */,
+				0940C3912160B7D20049D8E6 /* WechatIMG8.jpeg */,
+				0940C3922160B7D20049D8E6 /* WechatIMG9.jpeg */,
+			);
+			path = loading2;
 			sourceTree = "<group>";
 		};
 		0955FCB020E9F75D0046E6E0 /* GCD */ = {
@@ -215,7 +349,9 @@
 				0955FCC120EB567F0046E6E0 /* Block */,
 				0955FCC920ECA2980046E6E0 /* Location */,
 				09AF479320F47AD100241190 /* Animation */,
+				09C2523A21424A7A0068A9BB /* AFNetworking */,
 				09A65AA72137BCD100E22C7A /* ReactiveObjC */,
+				0940C296216067500049D8E6 /* MBProgressHUD */,
 				09B1BCA3209A9D34001FBE96 /* Assets.xcassets */,
 				09B1BCA5209A9D34001FBE96 /* LaunchScreen.storyboard */,
 				09B1BCA8209A9D34001FBE96 /* Info.plist */,
@@ -243,6 +379,16 @@
 			);
 			path = Masonry;
 			sourceTree = "<group>";
+		};
+		09C2523A21424A7A0068A9BB /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				09C2523B21424A9B0068A9BB /* AFNetworkingViewController.h */,
+				09C2523C21424A9B0068A9BB /* AFNetworkingViewController.m */,
+			);
+			name = AFNetworking;
+			path = HLYRepository/AFNetworking;
+			sourceTree = SOURCE_ROOT;
 		};
 		09D753D720C665840032E683 /* Transform */ = {
 			isa = PBXGroup;
@@ -333,11 +479,41 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0940C3942160B7D20049D8E6 /* WechatIMG10.jpeg in Resources */,
+				0940C2AF216078C10049D8E6 /* MBHUD_Info@3x.png in Resources */,
+				0940C2AD216078C10049D8E6 /* MBHUD_Warn@2x.png in Resources */,
+				0940C2B32160817E0049D8E6 /* coMascot.png in Resources */,
+				0940C3A52160B7D20049D8E6 /* WechatIMG8.jpeg in Resources */,
+				0940C2AC216078C10049D8E6 /* MBHUD_Error@2x.png in Resources */,
+				0940C3A62160B7D20049D8E6 /* WechatIMG9.jpeg in Resources */,
+				0940C39A2160B7D20049D8E6 /* WechatIMG16.jpeg in Resources */,
+				0940C3992160B7D20049D8E6 /* WechatIMG15.jpeg in Resources */,
+				0940C39C2160B7D20049D8E6 /* WechatIMG18.jpeg in Resources */,
 				09B1BCC3209AB8FA001FBE96 /* AutoLayoutController.xib in Resources */,
+				0940C2AE216078C10049D8E6 /* MBHUD_Info@2x.png in Resources */,
+				0940C2B0216078C10049D8E6 /* MBHUD_Success@2x.png in Resources */,
 				09B1BCA7209A9D34001FBE96 /* LaunchScreen.storyboard in Resources */,
+				0940C3952160B7D20049D8E6 /* WechatIMG11.jpeg in Resources */,
+				0940C3A02160B7D20049D8E6 /* WechatIMG3.jpeg in Resources */,
+				0940C3A22160B7D20049D8E6 /* WechatIMG5.jpeg in Resources */,
+				0940C2AA216078C10049D8E6 /* MBHUD_Success@3x.png in Resources */,
 				0955FCBC20E9F7C40046E6E0 /* HomeCell.xib in Resources */,
+				0940C3A12160B7D20049D8E6 /* WechatIMG4.jpeg in Resources */,
+				0940C3A32160B7D20049D8E6 /* WechatIMG6.jpeg in Resources */,
 				09B1BCA4209A9D34001FBE96 /* Assets.xcassets in Resources */,
+				0940C2AB216078C10049D8E6 /* MBHUD_Warn@3x.png in Resources */,
+				0940C2B5216082700049D8E6 /* loading.gif in Resources */,
+				0940C3982160B7D20049D8E6 /* WechatIMG14.jpeg in Resources */,
+				0940C3962160B7D20049D8E6 /* WechatIMG12.jpeg in Resources */,
+				0940C3932160B7D20049D8E6 /* WechatIMG1.jpeg in Resources */,
+				0940C3972160B7D20049D8E6 /* WechatIMG13.jpeg in Resources */,
+				0940C39B2160B7D20049D8E6 /* WechatIMG17.jpeg in Resources */,
 				09AF479820F47B7900241190 /* CoreAnimation.png in Resources */,
+				0940C2B1216078C10049D8E6 /* MBHUD_Error@3x.png in Resources */,
+				0940C39E2160B7D20049D8E6 /* WechatIMG2.jpeg in Resources */,
+				0940C39D2160B7D20049D8E6 /* WechatIMG19.jpeg in Resources */,
+				0940C3A42160B7D20049D8E6 /* WechatIMG7.jpeg in Resources */,
+				0940C39F2160B7D20049D8E6 /* WechatIMG20.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,8 +583,10 @@
 				0955FCC420EB56940046E6E0 /* BlockViewController.m in Sources */,
 				090283EA20CBC48D00073AC6 /* FYLSegmentView.m in Sources */,
 				090283E420CBC35600073AC6 /* PageViewController.m in Sources */,
+				0940C299216067810049D8E6 /* MBProgressHUDViewController.m in Sources */,
 				09A65AAD2137BD5F00E22C7A /* ReactiveObjCViewController.m in Sources */,
 				09B1BCAA209A9D34001FBE96 /* main.m in Sources */,
+				0940C2A12160784F0049D8E6 /* HUDManager.m in Sources */,
 				0955FCB320E9F7880046E6E0 /* GCDViewController.m in Sources */,
 				0955FCCC20ECA2AC0046E6E0 /* LocationViewController.m in Sources */,
 				09B1BCC2209AB3F2001FBE96 /* MasonryController.m in Sources */,
@@ -416,6 +594,7 @@
 				09AF479620F47AF700241190 /* AnimationViewController.m in Sources */,
 				09B1BC9C209A9D34001FBE96 /* AppDelegate.m in Sources */,
 				0955FCBB20E9F7C40046E6E0 /* HomeTableViewController.m in Sources */,
+				09C2523D21424A9B0068A9BB /* AFNetworkingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

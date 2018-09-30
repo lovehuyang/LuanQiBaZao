@@ -23,7 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"HLYRepository";
-    dataArr = [NSArray arrayWithObjects:@"AutoLayout",@"Masonry", @"Transform",@"Page",@"GCD",@"Copy",@"Block",@"Location",@"Animation",@"ReactiveObjC",nil];
+    dataArr = [NSArray arrayWithObjects:@"AutoLayout",@"Masonry", @"Transform",@"Page",@"GCD",@"Copy",@"Block",@"Location",@"Animation",@"ReactiveObjC",@"AFNetworking",@"MBProgressHUD",nil];
     
     self.tableView.estimatedRowHeight = 500;
 }
