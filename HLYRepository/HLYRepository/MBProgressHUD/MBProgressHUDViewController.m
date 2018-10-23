@@ -25,12 +25,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+   
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-//     [HUDManager loadingHUD];// 加载中
-    [HUDManager showInfoMessage:@"请登录"];
+    
+//    [HUDManager showInfoMessage:@"请登录"];
+     [HUDManager loadingHUD:self.view];// 加载中
     
 }
 @end

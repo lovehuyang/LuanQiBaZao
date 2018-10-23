@@ -28,6 +28,6 @@
 + (void)showInfoMessage:(NSString *)message;
 + (void)showWarnMessage:(NSString *)message;
 
-+ (void)loadingHUD;
++ (void)loadingHUD:(UIView *)view;
 + (void)hideHUD;
 @end

@@ -126,10 +126,10 @@ static NSString *const loadingMessage = @"加载中";
 }
 
 #pragma mark - 显示加载动画（帧图片）
-+ (void)loadingHUD
++ (void)loadingHUD:(UIView *)view
 {
-    MBProgressHUD *hud  =  [self createMBProgressHUDviewWithMessage:@"加载中..." isWindiw:NO];
-    UIImageView *loadingImgView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 100, 100)];
+    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:view animated:YES];
+    UIImageView *loadingImgView = [UIImageView new];
     NSMutableArray *loadingImageArr = [NSMutableArray array];
     for (int i = 1; i < 20; i ++) {
         NSString *imgName = [NSString stringWithFormat:@"WechatIMG%d.jpeg",i];
@@ -141,8 +141,11 @@ static NSString *const loadingMessage = @"加载中";
     loadingImgView.animationRepeatCount = 0;
     [loadingImgView startAnimating];
     hud.customView = loadingImgView;
+    hud.detailsLabel.text = @"加载中...";
     hud.mode = MBProgressHUDModeCustomView;
-//    [hud hideAnimated:YES afterDelay:2];
+//    hud.backgroundColor = [UIColor redColor];// 设置背景颜色
+//    hud.animationType = MBProgressHUDAnimationZoom;
+//    hud.contentColor = [UIColor yellowColor];// 字体颜色
 }
 
 #pragma mark - 隐藏指示器
